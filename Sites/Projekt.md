@@ -22,8 +22,12 @@
 # Kurzfassung
 ## Projektbeschreibung
 ## Methode IPERKA
+Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projektes verwendet. Sie hilft dabei, ein Projekt von Grund auf gut zu planen und zu verstehen. Man soll jeden Schritt genau durchführen, um jegliche Probleme umgehen zu können. Zum Schluss der Methode wird auch verlangt, dass man das Projekt reflektiert, um aus allfälligen Fehlern auch lernen zu können. 
 
-![IPERKA](iperka.jpg)
+![IPERKA](/iperka.jpg|width=200)
+
+
+Für diese Methode habe ich mich entschieden, da wir diese in meiner Lehre für alle Projekte angewandt haben und ich gute Erfahrungen damit gemacht habe. Dadurch kenne ich diese Methode schon gut und kann sie dementsprechend anwenden.
 
 # Informieren
 # Planen

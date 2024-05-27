@@ -1,32 +1,38 @@
 # Teil - 2 Projekt
+> Back [Page](/Semesterarbeit1/Sites/Einleitung.md)
+>
+> Next [Page](/Semesterarbeit1/Sites/Realisierung.md)
 
 - [Teil - 2 Projekt](#teil---2-projekt)
 - [Kurzfassung](#kurzfassung)
   - [Projektbeschreibung](#projektbeschreibung)
-  - [Methode Wasserfall Konzept](#methode-wasserfall-konzept)
-- [Analyse](#analyse)
-  - [Ist Zustand](#ist-zustand)
-  - [Soll Zustand](#soll-zustand)
-- [Produkt Vergleiche](#produkt-vergleiche)
-- [Kostenanalyse](#kostenanalyse)
-- [Design (technische aspekte)](#design-technische-aspekte)
-- [Fallbacksolution](#fallbacksolution)
-- [Implementierung](#implementierung)
-- [Test](#test)
-- [Inbetriebnahme (Nutzung)](#inbetriebnahme-nutzung)
+  - [Methode IPERKA](#methode-iperka)
+- [Informieren](#informieren)
+- [Planen](#planen)
+  - [](#)
+  - [](#-1)
+- [Entscheiden](#entscheiden)
+  - [Produkt Vergleich](#produkt-vergleich)
+    - [Google Cloud Storage](#google-cloud-storage)
+    - [Azure Blob Storage](#azure-blob-storage)
+    - [Vor -und Nachteile](#vor--und-nachteile)
+  - [Kostenanalyse](#kostenanalyse)
+  - [Entscheidungsmatrix](#entscheidungsmatrix)
 
 # Kurzfassung
 ## Projektbeschreibung
-## Methode Wasserfall Konzept
+## Methode IPERKA
 
-# Analyse
-## Ist Zustand
-## Soll Zustand
+![IPERKA](iperka.jpg)
 
-# Produkt Vergleiche
-# Kostenanalyse
-# Design (technische aspekte)
-# Fallbacksolution
-# Implementierung
-# Test
-# Inbetriebnahme (Nutzung)
+# Informieren
+# Planen
+## 
+## 
+# Entscheiden
+## Produkt Vergleich
+### Google Cloud Storage
+### Azure Blob Storage
+### Vor -und Nachteile
+## Kostenanalyse
+## Entscheidungsmatrix

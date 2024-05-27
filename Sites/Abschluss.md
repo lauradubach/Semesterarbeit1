@@ -1,14 +1,17 @@
-# Teil - 3 Abschluss
+# Abschluss
+> Back [Page](/Semesterarbeit1/Sites/Realisierung.md)
 
-- [Teil - 3 Abschluss](#teil---3-abschluss)
-- [Zusammenfassung](#zusammenfassung)
-- [Reflexion](#reflexion)
-- [Quellen](#quellen)
-- [Abbildungsverzeichnis](#abbildungsverzeichnis)
-- [Glossar](#glossar)
+- [Abschluss](#abschluss)
+- [Auswerten](#auswerten)
+  - [Zusammenfassung](#zusammenfassung)
+  - [Reflexion](#reflexion)
+  - [Quellen](#quellen)
+  - [Abbildungsverzeichnis](#abbildungsverzeichnis)
+  - [Glossar](#glossar)
 
-# Zusammenfassung
-# Reflexion
-# Quellen
-# Abbildungsverzeichnis
-# Glossar
+# Auswerten
+## Zusammenfassung
+## Reflexion
+## Quellen
+## Abbildungsverzeichnis
+## Glossar

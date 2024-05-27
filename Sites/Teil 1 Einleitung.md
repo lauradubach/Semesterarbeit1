@@ -119,7 +119,13 @@ E-Mail: thanam.pangri@tbz.ch
 Damit keine Daten verloren gehen können, werde ich alle Dokumente, auf meinem OneDrive abspeichern. Zusätzlich werde ich die Daten auf einen USB-Stick abspeichern, damit ich im Worstcase Szenario immer noch ein Backup besitze. 
 
 # Zeitplan
+
+![Zeitplan](/Semesterarbeit1/Zeitplan.png)
+
 # Lernplan
+
+![Lernplan](/Semesterarbeit1/Lernplan.png)
+
 # Besprechungsprotokoll
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 

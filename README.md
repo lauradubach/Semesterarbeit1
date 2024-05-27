@@ -6,7 +6,7 @@
 
 ## Zusammenfassung
 
-In dieser Arbeit wird mein Wissen des ersten Semester dieser HF Ausbildung geteste. Das Grobe Ziel ist es, einen Blob Storage in der Azure Cloud mit CLI zu erstellen und dabei die AZ-900 Zertifizierung einfiessen zu lassen. Zusätzlich werde ich die Zertifizierung machen und hoffentlich bestehen.
+In dieser Arbeit wird mein Wissen des ersten Semester dieser HF Ausbildung getestet. Das Grobe Ziel ist es, einen Blob Storage in der Azure Cloud mit CLI zu erstellen und dabei die AZ-900 Zertifizierung einfliessen zu lassen. Zusätzlich werde ich die Zertifizierung machen und hoffentlich bestehen.
 
 ## Kurze Übersicht
 

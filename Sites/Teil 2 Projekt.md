@@ -93,7 +93,6 @@ Folgende punkte werde ich verfolgen:
 ## Ist Situation
 ## Soll Situation
 ## Umgebung
-
 # Entscheiden
 ## Produkt Vergleich
 ### Google Cloud Storage

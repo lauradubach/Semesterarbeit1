@@ -1,6 +1,6 @@
 # Semesterarbeit 1 | HF Cloud Native Engineer
 
-![Titelbild](Titelbild.jpg)
+![Titelbild](Pictures/Titelbild.jpg)
 
 > Next [Page](/Semesterarbeit1/Sites/Teil%201%20Einleitung.md)
 

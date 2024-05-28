@@ -63,15 +63,15 @@ Big Data ist ein Begriff, der die große Menge, Geschwindigkeit und Vielfalt an 
 
 | **Aspekt** | **Besonderheiten** | **Herausforderungen** |
 |----------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| **Volumen**    | - Enorme Menge an Daten aus sozialen Medien, Transaktionsdaten, Sensoren, etc.    | - Speicherung: Erfordert spezialisierte, kosteneffiziente und skalierbare Speicherlösungen                 |
-|                | - Moderne Technologien wie IoT und Internetnutzung treiben das Datenwachstum an   | - Verwaltung: Benötigt robuste Datenmanagement-Systeme für Zugänglichkeit, Sicherheit und Organisation     |
-| **Geschwindigkeit** | - Daten müssen oft in Echtzeit oder nahezu in Echtzeit verarbeitet werden        | - Verarbeitung in Echtzeit: Erfordert leistungsstarke und effiziente Datenverarbeitungstechnologien        |
-|                | - Beispiele: Finanztransaktionen, Online-Werbung, Überwachungsdaten                | - Latenzzeit: Minimierung der Latenzzeit ist entscheidend für rechtzeitige Entscheidungsfindung            |
-| **Vielfalt**   | - Verschiedene Datenformen: strukturierte, unstrukturierte und semi-strukturierte Daten | - Integration: Komplexität der Integration unterschiedlicher Datenquellen und -formate                     |
-|                | - Quellen: Soziale Medien, Mobilgeräte, Sensoren, Unternehmenssysteme              | - Analyse: Erfordert fortschrittliche Techniken wie maschinelles Lernen und natürliche Sprachverarbeitung  |
-| **Auswertung** | - Analyse und Interpretation von aten zur Gewinnung wertvoller Erkenntnisse       | - Datenqualität: Sicherstellung der Genauigkeit und Zuverlässigkeit der Daten                              |
-|                | - Techniken: Data Mining, maschinelles Lernen, statistische Analysen                | - Datenschutz: Schutz der Privatsphäre und Einhaltung von Datenschutzgesetzen                              |
-|                |                                                                                     | - Fachwissen: Bedarf an spezialisierten Fachkräften für Big Data-Technologien und -Methoden                |
+| **Volumen** | - Enorme Menge an Daten aus sozialen Medien, Transaktionsdaten, Sensoren, etc. | - Speicherung: Erfordert spezialisierte, kosteneffiziente und skalierbare Speicherlösungen |
+| | - Moderne Technologien wie IoT und Internetnutzung treiben das Datenwachstum an | - Verwaltung: Benötigt robuste Datenmanagement-Systeme für Zugänglichkeit, Sicherheit und Organisation |
+| **Geschwindigkeit** | - Daten müssen oft in Echtzeit oder nahezu in Echtzeit verarbeitet werden | - Verarbeitung in Echtzeit: Erfordert leistungsstarke und effiziente Datenverarbeitungstechnologien |
+| | - Beispiele: Finanztransaktionen, Online-Werbung, Überwachungsdaten | - Latenzzeit: Minimierung der Latenzzeit ist entscheidend für rechtzeitige Entscheidungsfindung |
+| **Vielfalt** | - Verschiedene Datenformen: strukturierte, unstrukturierte und semi-strukturierte Daten | - Integration: Komplexität der Integration unterschiedlicher Datenquellen und -formate |
+| | - Quellen: Soziale Medien, Mobilgeräte, Sensoren, Unternehmenssysteme | - Analyse: Erfordert fortschrittliche Techniken wie maschinelles Lernen und natürliche Sprachverarbeitung |
+| **Auswertung** | - Analyse und Interpretation von aten zur Gewinnung wertvoller Erkenntnisse | - Datenqualität: Sicherstellung der Genauigkeit und Zuverlässigkeit der Daten |
+| | - Techniken: Data Mining, maschinelles Lernen, statistische Analysen | - Datenschutz: Schutz der Privatsphäre und Einhaltung von Datenschutzgesetzen |
+| |                                                         | - Fachwissen: Bedarf an spezialisierten Fachkräften für Big Data-Technologien und -Methoden |
 
 Diese Tabelle bietet eine klare und strukturierte Darstellung der verschiedenen Aspekte von Big Data, einschließlich ihrer besonderen Merkmale und der damit verbundenen Herausforderungen.
 

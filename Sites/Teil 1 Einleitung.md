@@ -2,7 +2,7 @@
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/README.md)
 >
-> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%202%20Projekt.md)
+> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%202%20Vorbereitung.md)
 
 - [Blob Storage \& Azure Zertifizierung](#blob-storage--azure-zertifizierung)
 - [Versionenverzeichniss](#versionenverzeichniss)

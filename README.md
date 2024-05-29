@@ -10,7 +10,7 @@ In dieser Arbeit wird mein Wissen des ersten Semester dieser HF Ausbildung getes
 
 ## Kurze Übersicht
 
-- > Einleitung [Teil1](Semesterarbeit1/Sites/Teil 1 Einleitung.md)
+- > Einleitung [Teil1](/Semesterarbeit1/Sites/Teil 1 Einleitung.md)
 - > Projekt [Teil2](/Semesterarbeit1/Sites/Teil%202%20Projekt.md)
 - > Realisierung [Teil3](/Semesterarbeit1/Sites/Teil%203%20Realisieren.md)
 - > Abschluss [Teil4](/Semesterarbeit1/Sites/Teil%204%20Abschluss.md)

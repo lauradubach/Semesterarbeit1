@@ -1,10 +1,10 @@
-# Teil 2 Projekt
+# Teil 2 Vorbereitung
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%201%20Einleitung.md)
 >
 > Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%203%20Realisieren.md)
 
-- [Teil 2 Projekt](#teil-2-projekt)
+- [Teil 2 Vorbereitung](#teil-2-vorbereitung)
 - [Informieren](#informieren)
   - [Bedürfnisse der Unternehmen](#bedürfnisse-der-unternehmen)
     - [Datenvolumen](#datenvolumen)

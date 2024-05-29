@@ -2,7 +2,7 @@
 
 ![Titelbild](Pictures/Titelbild.jpg)
 
-> Next [Page](/Semesterarbeit1/Sites/Teil%201%20Einleitung.md)
+> Next [Page](Sites/Teil 1 Einleitung.md)
 
 ## Zusammenfassung
 

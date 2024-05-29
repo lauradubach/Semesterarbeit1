@@ -1,8 +1,8 @@
 # Teil 2 Projekt
 
-> Back [Page](/Semesterarbeit1/Sites/Teil%201%20Einleitung.md)
+> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%201%20Einleitung.md)
 >
-> Next [Page](/Semesterarbeit1/Sites/Teil%203%20Realisieren.md)
+> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%203%20Realisieren.md)
 
 - [Teil 2 Projekt](#teil-2-projekt)
 - [Informieren](#informieren)

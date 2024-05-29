@@ -1,8 +1,8 @@
 # Blob Storage & Azure Zertifizierung 
 
-> Back [Page](/Semesterarbeit1/README.md)
+> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/README.md)
 >
-> Next [Page](/Semesterarbeit1/Sites/Teil%202%20Projekt.md)
+> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%202%20Projekt.md)
 
 - [Blob Storage \& Azure Zertifizierung](#blob-storage--azure-zertifizierung)
 - [Versionenverzeichniss](#versionenverzeichniss)

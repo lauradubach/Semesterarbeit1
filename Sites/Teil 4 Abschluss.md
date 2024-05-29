@@ -1,8 +1,8 @@
 # Teil 4 Abschluss
 
-> Back [Page](/Semesterarbeit1/Sites/Teil%203%20Realisieren.md)
+> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%203%20Realisieren.md)
 >
-> Back [Start](/Semesterarbeit1/README.md)
+> Back [Start](https://github.com/lauradubach/Semesterarbeit1/blob/main/README.md)
 
 - [Teil 4 Abschluss](#teil-4-abschluss)
 - [Auswerten](#auswerten)

@@ -77,10 +77,10 @@ Diese Tabelle bietet eine klare und strukturierte Darstellung der verschiedenen 
 
 ### Fazit
 Big Data bietet enorme Möglichkeiten, bringt aber auch erhebliche Herausforderungen mit sich. Unternehmen und Organisationen müssen in geeignete Technologien, Prozesse und Fachkräfte investieren, um das Potenzial von Big Data voll auszuschöpfen und gleichzeitig die damit verbundenen Herausforderungen zu bewältigen.
- (Chat GPT)
+(Chat GPT)
 
 ## Vorbereitung Zertifizierung
-Um mich gut auf die Zertifizierung vorzubereiten, werde ich als einen Lernplan erstellen.
+Um mich gut auf die Zertifizierung vorzubereiten, werde ich als erstes einen Lernplan erstellen.
 
 Folgende punkte werde ich verfolgen:
   1. Alle Module im Microsoft Learn abschliessen

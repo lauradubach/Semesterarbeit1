@@ -11,7 +11,7 @@ In dieser Arbeit wird mein Wissen des ersten Semester dieser HF Ausbildung getes
 ## Kurze Übersicht
 
 - > Einleitung [Teil1](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%201%20Einleitung.md)
-- > Projekt [Teil2](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%202%20Vorbereitung.md)
+- > Vorbereitung [Teil2](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%202%20Vorbereitung.md)
 - > Realisierung [Teil3](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%203%20Realisieren.md)
 - > Abschluss [Teil4](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 

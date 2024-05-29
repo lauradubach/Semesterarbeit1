@@ -2,7 +2,7 @@
 
 ![Titelbild](Pictures/Titelbild.jpg)
 
-> Next [Page](/Semesterarbeit1/Sites/Teil%201%20Einleitung.md)
+> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%201%20Einleitung.md)
 
 ## Zusammenfassung
 

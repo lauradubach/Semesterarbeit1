@@ -30,7 +30,8 @@
 | Version | Datum | Autor | Bemerkung | 
 | ------- | ------ | ---- | --------- |
 | 1.0 | 24.05.2024 | Laura Dubach | Inhaltsverzeichnis, Einleitung Dokumentation |
-| 1.1 | 27.05.2024 | Laura Dubach | Titelseite, Weiterarbeit Einleitung Dokumentation, Verlinkung, Zeitplan und Lernplan erstellen | 
+| 1.1 | 27.05.2024 | Laura Dubach | Titelseite, Weiterarbeit Einleitung Dokumentation, Verlinkung, Zeitplan und Lernplan erstellen |
+| 1.2 | 28.05.2024 | Laura Dubach | Thema Informieren dokumentieren, Verlinkung | 
 
 
 # Teil 1 Einleitung

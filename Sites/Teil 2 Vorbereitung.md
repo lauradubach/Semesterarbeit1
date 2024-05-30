@@ -73,7 +73,7 @@ Big Data ist ein Begriff, der die große Menge, Geschwindigkeit und Vielfalt an 
 | | - Techniken: Data Mining, maschinelles Lernen, statistische Analysen | - Datenschutz: Schutz der Privatsphäre und Einhaltung von Datenschutzgesetzen |
 | |                                                         | - Fachwissen: Bedarf an spezialisierten Fachkräften für Big Data-Technologien und -Methoden |
 
-Diese Tabelle bietet eine klare und strukturierte Darstellung der verschiedenen Aspekte von Big Data, einschließlich ihrer besonderen Merkmale und der damit verbundenen Herausforderungen.
+Diese Tabelle bietet eine klare und strukturierte Darstellung der verschiedenen Aspekte von Big Data, einschließlich ihrer besonderen Merkmale und der damit verbundenen Herausforderungen. 
 
 ### Fazit
 Big Data bietet enorme Möglichkeiten, bringt aber auch erhebliche Herausforderungen mit sich. Unternehmen und Organisationen müssen in geeignete Technologien, Prozesse und Fachkräfte investieren, um das Potenzial von Big Data voll auszuschöpfen und gleichzeitig die damit verbundenen Herausforderungen zu bewältigen.

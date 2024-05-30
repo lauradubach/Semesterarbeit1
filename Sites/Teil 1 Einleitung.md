@@ -31,7 +31,8 @@
 | ------- | ------ | ---- | --------- |
 | 1.0 | 24.05.2024 | Laura Dubach | Inhaltsverzeichnis, Einleitung Dokumentation |
 | 1.1 | 27.05.2024 | Laura Dubach | Titelseite, Weiterarbeit Einleitung Dokumentation, Verlinkung, Zeitplan und Lernplan erstellen |
-| 1.2 | 28.05.2024 | Laura Dubach | Thema Informieren dokumentieren, Verlinkung |
+| 1.2 | 28.05.2024 | Laura Dubach | Thema Informieren dokumentieren, Verlinkung, Zertifizierungstermin buchen |
+| 1.3 | 30.05.2024 | Laura Dubach | Zeitplan -und Lernplan anpassen, start zusammenfassung AZ-900 Module |
 
 
 # Teil 1 Einleitung
@@ -122,11 +123,11 @@ Damit keine Daten verloren gehen können, werde ich alle Dokumente, auf meinem O
 
 # Zeitplan
 
-![Zeitplan](/Semesterarbeit1/Pictures/Zeitplan.png)
+![Zeitplan](../Pictures/Zeitplan.png)
 
 # Lernplan
 
-![Lernplan](/Semesterarbeit1/Pictures/Lernplan.png)
+![Lernplan](../Pictures/Lernplan.png)
 
 # Besprechungsprotokoll
 

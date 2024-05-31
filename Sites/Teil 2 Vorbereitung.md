@@ -97,6 +97,14 @@ Folgende punkte werde ich verfolgen:
 ## Produkt Vergleich
 ### Google Cloud Storage
 ### Azure Blob Storage
+## Azure Blob Storage
+- Überblick: Objektspeicher für unstrukturierte Daten wie Text, Binärdaten, Videos und Protokolle.
+- Zugriff: Daten sind weltweit über URLs, REST API, PowerShell, CLI oder Client-Bibliotheken zugänglich.
+- Speicherstufen:
+  - Hot: Häufiger Zugriff.
+  - Cool: Seltenere Zugriffe (mindestens 30 Tage gespeichert).
+  - Cold: Selten zugegriffen (mindestens 90 Tage gespeichert).
+  - Archive: Langzeitspeicherung mit flexibler Latenz (mindestens 180 Tage gespeichert).
 ### Vor -und Nachteile
 ## Kostenanalyse
 ## Entscheidungsmatrix

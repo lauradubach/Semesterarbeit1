@@ -23,6 +23,7 @@
 - [Zeitplan](#zeitplan)
 - [Lernplan](#lernplan)
 - [Besprechungsprotokoll](#besprechungsprotokoll)
+    - [Besprechungsnotiz](#besprechungsnotiz)
 
 
 # Versionenverzeichniss
@@ -130,9 +131,19 @@ Damit keine Daten verloren gehen können, werde ich alle Dokumente, auf meinem O
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |
-| 1 | 31.05.2024 | 18:00 | Philipp Rohr, Laura Dubach |
+| 1 | 31.05.2024 | 18:15 - 18:30 | Philipp Rohr, Laura Dubach |
 
-Besprechungsnotiz
+### Besprechungsnotiz
+
+Vor dem Gespräch habe ich mir einige Gedanken gemacht, was für Fragen ich stellen möchte. Diese habe ich mir dann im Notion notiert.
+
+1. Darf ich ChatPT für meine texte verwenden
+2. Kunde erfinden oder allgemein schreiben
+3. Wie soll ich AZ-900 integrieren 
+
+Danach habe ich mich mit Philipp über Teams getroffen. Er meinte ChatGPT soll ich unbedingt verwenden, da es auch Zukunft ist. Wichtig ist einfach, dass ich die Quellen angebe. Zum Thema wie ich den Kunde einbauen soll, meinte er, am besten einen Kunden zu erfinden. So kann ich alles besser beschreiben und es gibt keine Verwirrungen. Zur letzten Frage wie ich die Zertifizierung einfliessen lassen soll, sagte er, ich soll meinen Lernweg aufzeigen und dann einen fliessenden Übergang zu meinem Thema machen, welches in der Lernunterlagen des AZ-900 aufzufinden ist. 
+
+Das Gespräch war sehr gut und Philipp konnte all meine Fragen beantworten. So kann ich meine Smesterabreit nun gut weiterführen.
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |

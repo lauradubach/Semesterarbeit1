@@ -34,6 +34,7 @@
 | 1.1 | 27.05.2024 | Laura Dubach | Titelseite, Weiterarbeit Einleitung Dokumentation, Verlinkung, Zeitplan und Lernplan erstellen |
 | 1.2 | 28.05.2024 | Laura Dubach | Thema Informieren dokumentieren, Verlinkung, Zertifizierungstermin buchen |
 | 1.3 | 30.05.2024 | Laura Dubach | Zeitplan -und Lernplan anpassen, start zusammenfassung AZ-900 Module |
+| 1.4 | 31.05.2024 | Laura Dubach | Besprechungsprotokoll schreiben, Notizen im Nozion machen |
 
 
 # Teil 1 Einleitung

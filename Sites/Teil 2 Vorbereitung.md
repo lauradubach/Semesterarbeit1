@@ -91,20 +91,69 @@ Folgende punkte werde ich verfolgen:
 
 # Planen
 ## Ist Situation
+
+![IST-Zustand](../Pictures/IST-Zustand.png)
+
+- Datenablage: Daten werden lokal auf physischen Servern oder auf einfachen Netzwerkspeichern (NAS) abgelegt.
+- Datensicherheit: Mögliche Sicherheitsrisiken durch fehlende Verschlüsselung und Redundanz.
+- Datenzugriff: Begrenzter Zugriff auf Daten, eventuell nur innerhalb des Firmennetzwerks.
+- Wartung und Skalierbarkeit: Hoher Wartungsaufwand und eingeschränkte Skalierbarkeit durch physische Hardware.
+
 ## Soll Situation
-## Umgebung
+
+![SOLL-Zustand](../Pictures/SOLL-Zustand.png)
+
+- Datenablage: Daten sind jetzt in einem skalierbaren und redundanten Blob Storage in der Cloud abgelegt.
+- Datensicherheit: Verbesserte Sicherheitsmaßnahmen durch Verschlüsselung und Zugriffskontrollen.
+- Datenzugriff: Flexibler und sicherer Zugriff auf Daten von überall aus, auch für mobile Nutzer.
+- Wartung und Skalierbarkeit: Geringerer Wartungsaufwand und hohe Skalierbarkeit durch Nutzung der Cloud-Infrastruktur.
+- Kostenkontrolle: Bessere Kostentransparenz und -kontrolle durch nutzungsabhängige Abrechnung.
+
 # Entscheiden
 ## Produkt Vergleich
 ### Google Cloud Storage
+
+Google Cloud Storage (GCS) ist ein skalierbarer, hochverfügbarer Objektspeicherdienst von Google Cloud, der eine flexible und zuverlässige Speicherung von Daten jeder Größe ermöglicht. Daten werden in Form von Objekten innerhalb von Buckets gespeichert, die jeweils einen weltweit eindeutigen Namen haben. GCS bietet verschiedene Speicherklassen, die auf unterschiedliche Zugriffs- und Kostenanforderungen zugeschnitten sind:
+- Standard Storage für häufigen Zugriff
+- Nearline Storage für monatlichen Zugriff
+- Coldline Storage für jährlichen Zugriff
+- Archive Storage für seltenen oder nie benötigten Zugriff.
+
+Der Dienst ist hoch skalierbar und gewährleistet eine Verfügbarkeit von 99,95% und eine Datenlanglebigkeit von 99,999999999% (11 Neunen). Sicherheit wird durch standardmäßige Verschlüsselung der Daten im Ruhezustand und während der Übertragung sowie durch fein abgestimmte Zugangskontrollen über Identity and Access Management (IAM) gewährleistet. GCS unterstützt auch Lebenszyklusrichtlinien, die das automatische Verschieben oder Löschen von Objekten ermöglichen. Google Cloud Storage lässt sich nahtlos in andere Google Cloud-Dienste und Drittanbieteranwendungen integrieren und eignet sich für verschiedene Anwendungsfälle wie Datensicherung und -wiederherstellung, Content Delivery, Big Data und Analyse sowie Archivierung. Die Preisgestaltung basiert auf Speicherklasse, Datenmenge, Datenzugriff, Operationen und Netzwerknutzung, wodurch eine flexible Kostenstruktur geboten wird.
+
+Insgesamt bietet GCS eine leistungsfähige, flexible und sichere Lösung für Unternehmen, die große Datenmengen verwalten müssen. (ChatGPT)
+
+
 ### Azure Blob Storage
-## Azure Blob Storage
-- Überblick: Objektspeicher für unstrukturierte Daten wie Text, Binärdaten, Videos und Protokolle.
-- Zugriff: Daten sind weltweit über URLs, REST API, PowerShell, CLI oder Client-Bibliotheken zugänglich.
-- Speicherstufen:
-  - Hot: Häufiger Zugriff.
-  - Cool: Seltenere Zugriffe (mindestens 30 Tage gespeichert).
-  - Cold: Selten zugegriffen (mindestens 90 Tage gespeichert).
-  - Archive: Langzeitspeicherung mit flexibler Latenz (mindestens 180 Tage gespeichert).
+
+Azure Blob Storage ist ein skalierbarer und hochverfügbarer Objektspeicherdienst von Microsoft Azure, der eine flexible und zuverlässige Speicherung von Daten jeder Größe ermöglicht. Daten werden in Form von Blobs (Binary Large Objects) innerhalb von Containern gespeichert, die jeweils einen eindeutig identifizierbaren Namen haben. Azure Blob Storage bietet verschiedene Zugriffsebenen, die auf unterschiedliche Zugriffs- und Kostenanforderungen zugeschnitten sind: 
+
+- Hot Access Tier für häufigen Zugriff
+- Cool Access Tier für seltenen Zugriff (mindestens 30 Tage gespeichert)
+- Archive Access Tier für langfristige Speicherung von Daten, auf die selten oder nie zugegriffen wird. (mindestens 180 Tage gespeichert)
+
+Der Dienst ist hoch skalierbar und gewährleistet eine hohe Verfügbarkeit sowie eine Datenlanglebigkeit von 99,99999999999999% (16 Neunen). Sicherheit wird durch standardmäßige Verschlüsselung der Daten im Ruhezustand und während der Übertragung sowie durch fein abgestimmte Zugangskontrollen über Role-Based Access Control (RBAC) und Azure Active Directory (AAD) gewährleistet. Azure Blob Storage unterstützt auch Lebenszyklusrichtlinien, die das automatische Verschieben oder Löschen von Blobs basierend auf benutzerdefinierten Regeln ermöglichen. Azure Blob Storage lässt sich nahtlos in andere Azure-Dienste und Drittanbieteranwendungen integrieren und eignet sich für verschiedene Anwendungsfälle wie Datensicherung und -wiederherstellung, Content Delivery, Big Data und Analyse sowie Archivierung. Die Preisgestaltung basiert auf Zugriffsebene, Datenmenge, Datenzugriff, Operationen und Netzwerknutzung, wodurch eine flexible Kostenstruktur geboten wird.
+
+Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere Lösung für Unternehmen, die große Datenmengen verwalten müssen. (Chat GPT)
+
 ### Vor -und Nachteile
+
+| **Vorteile** | Azure Blob Storage | Google Cloud Storage |
+|--------------|--------------------|----------------------|
+| **Skalierbarkeit** | Hoch skalierbar und unterstützt große Datenmengen. | Ebenfalls hoch skalierbar und bietet Unterstützung für Exabytes an Daten. |
+| **Verfügbarkeit** | Hohe Verfügbarkeit mit Service Level Agreements (SLAs) für bestimmte Dienstebenen. | Hohe Verfügbarkeit mit einem SLA von 99,95% für Multi-Region Buckets. |
+| **Sicherheit** | Standardmäßige Verschlüsselung der Daten im Ruhezustand und während der Übertragung. Zugangskontrolle über Role-Based Access Control (RBAC) und Azure Active Directory (AAD). | Standardmäßige Verschlüsselung der Daten im Ruhezustand und während der Übertragung. Zugangskontrolle über Identity and Access Management (IAM). |
+| **Flexibilität** | Verschiedene Zugriffsebenen (Hot, Cool, Archive) für unterschiedliche Anforderungen an Datenzugriff und Kosten. | Verschiedene Speicherklassen (Standard, Nearline, Coldline, Archive) für unterschiedliche Anforderungen an Datenzugriff und Kosten. |
+| **Integration** | Nahtlose Integration in andere Azure-Dienste und Microsoft-Ökosysteme. | Nahtlose Integration in andere Google Cloud-Dienste und Drittanbieteranwendungen. |
+| **Preisgestaltung** | Transparente Preisgestaltung mit verschiedenen Optionen für Speicherung, Zugriff und Netzwerknutzung. | Transparente Preisgestaltung mit verschiedenen Optionen für Speicherung, Zugriff und Netzwerknutzung. |
+
+| **Nachteile** | Azure Blob Storage | Google Cloud Storage |
+|--------------|--------------------|----------------------|
+| **Lernkurve** | Komplexität der Dienste und Konfigurationen erfordert möglicherweise eine steilere Lernkurve für Anfänger. | Komplexität der Dienste und Konfigurationen erfordert möglicherweise eine steilere Lernkurve für Anfänger. |
+| **Regionale Verfügbarkeit** | Kann je nach Region möglicherweise nicht so weit verbreitet sein wie die Dienste von Google Cloud. | Kann je nach Region möglicherweise nicht so weit verbreitet sein wie die Dienste von Azure. |
+| **Preisvariation** | Die Preisgestaltung kann je nach gewählter Zugriffsebene und Region variieren. | Die Preisgestaltung kann je nach gewählter Speicherklasse und Region variieren. |
+
+ (Chat GPT)
+
 ## Kostenanalyse
 ## Entscheidungsmatrix

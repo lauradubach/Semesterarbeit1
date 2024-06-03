@@ -35,6 +35,7 @@
 | 1.2 | 28.05.2024 | Laura Dubach | Thema Informieren dokumentieren, Verlinkung, Zertifizierungstermin buchen |
 | 1.3 | 30.05.2024 | Laura Dubach | Zeitplan -und Lernplan anpassen, start zusammenfassung AZ-900 Module |
 | 1.4 | 31.05.2024 | Laura Dubach | Besprechungsprotokoll schreiben, Notizen im Notion machen |
+| 1.5 | 03.06.2024 | Laura Dubach | Kapitel Planung dokumentiert, kapitel Entscheiden gestartet |
 
 
 # Teil 1 Einleitung

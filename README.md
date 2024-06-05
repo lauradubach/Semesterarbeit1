@@ -17,7 +17,6 @@ In dieser Arbeit wird mein Wissen des ersten Semester dieser HF Ausbildung getes
 
 ## Autorin
 
-
 ![Autorin](Pictures/Autorin.jpg)
 ---
 [Laura Joana Dubach](https://github.com/lauradubach)

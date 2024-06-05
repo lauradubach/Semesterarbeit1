@@ -20,3 +20,5 @@ In dieser Arbeit wird mein Wissen des ersten Semester dieser HF Ausbildung getes
 ![Laura](https://avatars.githubusercontent.com/u/78545576?s=400&u=2baa2f92421a81a4d77bf343aba7485e583b900b&v=4)
 ---
 [Laura Joana Dubach](https://github.com/lauradubach)
+
+![test](Pictures/Bild1.jpg)

@@ -95,7 +95,7 @@ Viele Unternehmen stehen vor der Herausforderung, große Mengen an Daten effizie
 ## Methode IPERKA
 Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projektes verwendet. Sie hilft dabei, ein Projekt von Grund auf gut zu planen und zu verstehen. Man soll jeden Schritt genau durchführen, um jegliche Probleme umgehen zu können. Zum Schluss der Methode wird auch verlangt, dass man das Projekt reflektiert, um aus allfälligen Fehlern auch lernen zu können. (Bexio 2020)
 
-![IPERKA](/Semesterarbeit1/Pictures/iperka.jpg)
+![IPERKA](../Pictures/iperka.jpg)
 
 Für diese Methode habe ich mich entschieden, da wir diese in meiner Lehre für alle Projekte angewandt haben und ich gute Erfahrungen damit gemacht habe. Dadurch kenne ich diese Methode schon gut und kann sie dementsprechend anwenden.
 

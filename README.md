@@ -1,6 +1,6 @@
 # Semesterarbeit 1 | HF Cloud Native Engineer
 
-![Titelbild](Pictures/Titelbild.jpg)
+![Titelbild](Pictures/Titelbild.png)
 
 > Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%201%20Einleitung.md)
 

@@ -8,6 +8,7 @@
 - [Versionenverzeichniss](#versionenverzeichniss)
 - [Teil 1 Einleitung](#teil-1-einleitung)
 - [Aufgabenstellung](#aufgabenstellung)
+  - [Abgrenzung](#abgrenzung)
   - [Ausgangslage](#ausgangslage)
   - [Ziele](#ziele)
   - [Mittel und Methoden](#mittel-und-methoden)
@@ -44,6 +45,12 @@ Mit der erfolgreichen Umsetzung dieses Projekts wird das Unternehmen in der Lage
 
 # Aufgabenstellung
 Das Projekt umfasst eine umfassende Analyse der aktuellen Speicheranforderungen von Unternehmen. Besonderheiten und Herausforderungen von Big Data, wie Volumen, Geschwindigkeit und Vielfalt der Daten, werden ebenfalls beleuchtet. Es erfolgt eine Bewertung von zwei verschiedenen Speichertechnologien im Kontext von Big Data, wobei Vor- und Nachteile detailliert erarbeitet werden. Auf Basis dieser Analyse wird ein Implementierungsplan für die beste Speicherlösung erstellt. Dieser Plan beinhaltet die praktische Implementierung und Verwaltung der Lösung sowie spezifische Verwaltungsherausforderungen und -lösungen. Die ausgewählte Speicherlösung ist Azure Blob Storage, das Flexibilität, Skalierbarkeit und Kosteneffizienz bietet. Ein weiterer Bestandteil des Projekts ist der Lernweg der HF Lernenden, um die Azure Fundamentals Zertifizierung zu erlangen. Dies stellt sicher, dass die Lernende die Azure-Umgebung effektiv nutzen und verwalten kann.
+
+## Abgrenzung
+
+1. Berechtigungskonzept gehört nicht zu diesem Projekt dazu
+2. Das Backup vom BlobStorage wird im diesen Projekt nicht angewendet oder beschrieben
+3. Die erfolgreiche Absolvierung der AZ-900 Zertifizierung ist nicht erforderlich, jedoch wird der Lernweg und die Vorbereitung beschrieben
 
 ## Ausgangslage
 Viele Unternehmen stehen vor der Herausforderung, große Mengen an Daten effizient und kostengünstig zu speichern und zu verwalten. Die traditionellen Speichermethoden sind oft nicht skalierbar, teuer und schwierig zu sichern und zu verwalten. Unternehmen benötigen eine Lösung, die nicht nur skalierbar und kosteneffizient ist, sondern auch hohe Verfügbarkeit, Sicherheit und einfache Verwaltung bietet. 

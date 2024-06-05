@@ -46,7 +46,9 @@ Mit der erfolgreichen Umsetzung dieses Projekts wird das Unternehmen in der Lage
 # Aufgabenstellung
 Das Projekt umfasst eine umfassende Analyse der aktuellen Speicheranforderungen von Unternehmen. Besonderheiten und Herausforderungen von Big Data, wie Volumen, Geschwindigkeit und Vielfalt der Daten, werden ebenfalls beleuchtet. Es erfolgt eine Bewertung von zwei verschiedenen Speichertechnologien im Kontext von Big Data, wobei Vor- und Nachteile detailliert erarbeitet werden. Auf Basis dieser Analyse wird ein Implementierungsplan für die beste Speicherlösung erstellt. Dieser Plan beinhaltet die praktische Implementierung und Verwaltung der Lösung sowie spezifische Verwaltungsherausforderungen und -lösungen. Die ausgewählte Speicherlösung ist Azure Blob Storage, das Flexibilität, Skalierbarkeit und Kosteneffizienz bietet. Ein weiterer Bestandteil des Projekts ist der Lernweg der HF Lernenden, um die Azure Fundamentals Zertifizierung zu erlangen. Dies stellt sicher, dass die Lernende die Azure-Umgebung effektiv nutzen und verwalten kann.
 
-## Abgrenzung
+## Abgrenzung 
+
+!NOCH NiCHT FERTIG!
 
 1. Berechtigungskonzept gehört nicht zu diesem Projekt dazu
 2. Das Backup vom BlobStorage wird im diesen Projekt nicht angewendet oder beschrieben

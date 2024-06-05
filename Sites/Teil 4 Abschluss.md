@@ -18,8 +18,24 @@
 ## Zusammenfassung
 ## Reflexion
 ## Quellen
+
 Kapitel IPERKA, Site Einleitung
 Bexio. (2020): Mit der IPERKA-Methode bessere Entscheidungen für Ihre KMU treffen. Aufgerufen am: 27.05.2024. Online unter: https://www.bexio.com/de-CH/blog/view/iperka-methode
+
+Kapitel Bedürfnisse der Unternehmen, Site Vorbereitung
+Chat GPT. (2024): Erhebung und Darstellung der spezifischen Bedürfnisse von Unternehmen hinsichtlich Datenvolumen, Zugriffszeiten und Sicherheit. Aufgerufen am: 28.05.2024. Online unter: https://chatgpt.com/c/868895b3-b58c-4d29-95c6-cf7e2b126c39
+
+Kapitel Beschreibung Big Data, Site Vorbereitung
+Chat GPT. (2024): Besonderheiten und Herausforderungen von Big Data (z. B. Volumen, Geschwindigkeit, Vielfalt, Auswertung). Aufgerufen am: 28.05.2024. Online unter: https://chatgpt.com/c/868895b3-b58c-4d29-95c6-cf7e2b126c39
+
+Kapitel Produkt Vergleich, Site Vorbereitung
+Chat GPT. (2024): Beschreibe mir den google cloud storage. Aufgerufen am: 03.06.2024. Online unter: https://chatgpt.com/c/fcc7372d-2c2c-46dd-bdc1-bf83965fece2
+
+Kapitel Produkt Vergleich, Site Vorbereitung
+Chat GPT. (2024): Bitte das gleiche für den azure blob storage. Aufgerufen am: 03.06.2024. Online unter: https://chatgpt.com/c/fcc7372d-2c2c-46dd-bdc1-bf83965fece2
+
+Kapitel Produkt Vergleich, Site Vorbereitung
+Chat GPT. (2024): Bitte mach mir eine tabelle mit den vor-und nachteilen von blob storage und von google cloud storage. Aufgerufen am: 03.06.2024. Online unter: https://chatgpt.com/c/fcc7372d-2c2c-46dd-bdc1-bf83965fece2
 
 ## Abbildungsverzeichnis
 ## Glossar

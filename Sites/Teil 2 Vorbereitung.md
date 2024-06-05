@@ -17,7 +17,6 @@
 - [Planen](#planen)
   - [Ist Situation](#ist-situation)
   - [Soll Situation](#soll-situation)
-  - [Umgebung](#umgebung)
 - [Entscheiden](#entscheiden)
   - [Produkt Vergleich](#produkt-vergleich)
     - [Google Cloud Storage](#google-cloud-storage)
@@ -25,6 +24,8 @@
     - [Vor -und Nachteile](#vor--und-nachteile)
   - [Kostenanalyse](#kostenanalyse)
   - [Entscheidungsmatrix](#entscheidungsmatrix)
+    - [Berechnung der Ergebnisse](#berechnung-der-ergebnisse)
+    - [Zusammenfassung der Ergebnisse](#zusammenfassung-der-ergebnisse)
 
 
 # Informieren
@@ -80,7 +81,7 @@ Big Data bietet enorme Möglichkeiten, bringt aber auch erhebliche Herausforderu
 ## Vorbereitung Zertifizierung
 Um mich gut auf die Zertifizierung vorzubereiten, werde ich als erstes einen Lernplan erstellen.
 
-Folgende punkte werde ich verfolgen:
+Folgende Punkte werde ich verfolgen:
   1. Alle Module im Microsoft Learn abschliessen
   2. Jedes Modul Zusammenfassen und in einem Repo dokumentieren
   3. Die Probeprüfung im Microsoft Learn absolvieren und üben
@@ -155,3 +156,27 @@ Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere 
 
 ## Kostenanalyse
 ## Entscheidungsmatrix
+
+| Kriterium                   | Gewichtung | Google Cloud Storage | Azure Blob Storage | Bewertung Google | Bewertung Azure | Ergebnis Google | Ergebnis Azure |
+|-----------------------------|------------|-----------------------|--------------------|-------------------|-----------------|-----------------|----------------|
+| **Kosten**                  | 20%        | Flexible Preismodelle, jedoch etwas teurer bei hoher Nutzung | Wettbewerbsfähige Preise, besonders günstig bei langfristiger Nutzung | 7                 | 9               | 1.4             | 1.8            |
+| **Leistung**                | 15%        | Hohe Leistung, schnelle Latenzzeiten | Sehr hohe Leistung, optimiert für verschiedene Nutzungsszenarien | 8                 | 9               | 1.2             | 1.35           |
+| **Sicherheit**              | 20%        | Sehr gute Sicherheitsfunktionen, SOC 2, ISO 27001 zertifiziert | Hervorragende Sicherheitsfunktionen, SOC 2, ISO 27001 zertifiziert, zusätzliche Funktionen | 8                 | 9               | 1.6             | 1.8            |
+| **Verfügbarkeit und Zuverlässigkeit** | 15% | Hohe Verfügbarkeit, SLA von 99.95% | Höchste Verfügbarkeit, SLA von 99.99% | 8                 | 9               | 1.2             | 1.35           |
+| **Integration und Ökosystem** | 10%     | Gute Integration mit Google-Diensten und -Tools | Hervorragende Integration mit Microsoft-Diensten und -Tools | 7                 | 9               | 0.7             | 0.9            |
+| **Support und Dokumentation** | 10%     | Ausgezeichneter Support und umfassende Dokumentation | Hervorragender Support, besonders für Unternehmen | 8                 | 9               | 0.8             | 0.9            |
+| **Skalierbarkeit**          | 10%        | Sehr gute Skalierbarkeit | Hervorragende Skalierbarkeit mit verschiedenen Speicheroptionen | 8                 | 9               | 0.8             | 0.9            |
+
+### Berechnung der Ergebnisse
+- Bewertung: Skala von 1 bis 10 (1 = schlecht, 10 = hervorragend)
+- Gewichtung: Prozentuale Bedeutung des Kriteriums
+- Ergebnis: Bewertung * Gewichtung
+
+### Zusammenfassung der Ergebnisse
+
+| Speicherlösung              | Gesamtpunktzahl |
+|-----------------------------|-----------------|
+| **Google Cloud Storage**    | 7.7             |
+| **Azure Blob Storage**      | 9.0             |
+
+

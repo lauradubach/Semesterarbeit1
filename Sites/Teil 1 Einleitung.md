@@ -51,7 +51,7 @@ Das Projekt umfasst eine umfassende Analyse der aktuellen Speicheranforderungen 
 !NOCH NiCHT FERTIG!
 
 1. Berechtigungskonzept gehört nicht zu diesem Projekt dazu
-2. Das Backup vom BlobStorage wird im diesen Projekt nicht angewendet oder beschrieben
+2. Das Backup vom BlobStorage wird in diesen Projekt nicht angewendet oder beschrieben
 3. Die erfolgreiche Absolvierung der AZ-900 Zertifizierung ist nicht erforderlich, jedoch wird der Lernweg und die Vorbereitung beschrieben
 
 ## Ausgangslage

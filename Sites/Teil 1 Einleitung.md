@@ -8,7 +8,6 @@
 - [Versionenverzeichniss](#versionenverzeichniss)
 - [Teil 1 Einleitung](#teil-1-einleitung)
 - [Aufgabenstellung](#aufgabenstellung)
-  - [Abgrenzung](#abgrenzung)
   - [Ausgangslage](#ausgangslage)
   - [Ziele](#ziele)
   - [Mittel und Methoden](#mittel-und-methoden)
@@ -16,6 +15,11 @@
     - [Programmiersprache](#programmiersprache)
   - [Werkzeuge](#werkzeuge)
   - [Methode IPERKA](#methode-iperka)
+  - [Seusag](#seusag)
+    - [Systemgrenzen](#systemgrenzen)
+      - [Technologische Systemgrenzen](#technologische-systemgrenzen)
+      - [Organisatorische Systemgrenzen](#organisatorische-systemgrenzen)
+      - [Regulatorische Anforderungen](#regulatorische-anforderungen)
 - [Projektorganisation](#projektorganisation)
   - [Beteiligte Personen](#beteiligte-personen)
     - [Kanditatin](#kanditatin)
@@ -45,14 +49,6 @@ Mit der erfolgreichen Umsetzung dieses Projekts wird das Unternehmen in der Lage
 
 # Aufgabenstellung
 Das Projekt umfasst eine umfassende Analyse der aktuellen Speicheranforderungen von Unternehmen. Besonderheiten und Herausforderungen von Big Data, wie Volumen, Geschwindigkeit und Vielfalt der Daten, werden ebenfalls beleuchtet. Es erfolgt eine Bewertung von zwei verschiedenen Speichertechnologien im Kontext von Big Data, wobei Vor- und Nachteile detailliert erarbeitet werden. Auf Basis dieser Analyse wird ein Implementierungsplan für die beste Speicherlösung erstellt. Dieser Plan beinhaltet die praktische Implementierung und Verwaltung der Lösung sowie spezifische Verwaltungsherausforderungen und -lösungen. Die ausgewählte Speicherlösung ist Azure Blob Storage, das Flexibilität, Skalierbarkeit und Kosteneffizienz bietet. Ein weiterer Bestandteil des Projekts ist der Lernweg der HF Lernenden, um die Azure Fundamentals Zertifizierung zu erlangen. Dies stellt sicher, dass die Lernende die Azure-Umgebung effektiv nutzen und verwalten kann.
-
-## Abgrenzung 
-
-!NOCH NiCHT FERTIG!
-
-1. Berechtigungskonzept gehört nicht zu diesem Projekt dazu
-2. Das Backup vom BlobStorage wird in diesen Projekt nicht angewendet oder beschrieben
-3. Die erfolgreiche Absolvierung der AZ-900 Zertifizierung ist nicht erforderlich, jedoch wird der Lernweg und die Vorbereitung beschrieben
 
 ## Ausgangslage
 Viele Unternehmen stehen vor der Herausforderung, große Mengen an Daten effizient und kostengünstig zu speichern und zu verwalten. Die traditionellen Speichermethoden sind oft nicht skalierbar, teuer und schwierig zu sichern und zu verwalten. Unternehmen benötigen eine Lösung, die nicht nur skalierbar und kosteneffizient ist, sondern auch hohe Verfügbarkeit, Sicherheit und einfache Verwaltung bietet. 
@@ -98,6 +94,33 @@ Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projek
 ![IPERKA](../Pictures/IPERKA.png)
 
 Für diese Methode habe ich mich entschieden, da wir diese in meiner Lehre für alle Projekte angewandt haben und ich gute Erfahrungen damit gemacht habe. Dadurch kenne ich diese Methode schon gut und kann sie dementsprechend anwenden.
+
+## Seusag
+### Systemgrenzen
+
+![Seusag](../Pictures/Seusag.png)
+
+#### Technologische Systemgrenzen
+- Zugriffsmanagement: Berechtigungskonzept gehört nicht zu diesem Projekt dazu
+- Nutzung: Die Nutzung des Azure Blob Storage wird beschrieben
+- Datenreplikation: Die Daten werden nicht repliziert
+- Datenintegration: Es werden Testdaten im Storage integriert, jedoch nur für Testzwecke und zur Darstellung
+- Verschlüsselung: Die Verschlüsselung der Daten wird beschrieben und angewendet
+- Überwachung und Alarmierung: Es wir kein Monitoring implementiert oder beschrieben
+- Backup und Wiederherstellung: Das Backup vom BlobStorage wird in diesem Projekt nicht angewendet oder beschrieben
+
+#### Organisatorische Systemgrenzen
+- Umgebung: Die Umgebung des Storages wird gezeigt und erläutert
+- Gemeinsame Nutzung: Es wird kein zweiter user erstellt, oder die gemeinsame Nutzung erläutert
+- Projektmanagement: Die Methode wird beschrieben und umgesetzt
+- Unterstützung: Zur Unterstützung des Projektes werden die Fachdozenten und die Modulunterlagen verwendet
+
+#### Regulatorische Anforderungen
+- Zertifizierung: Die erfolgreiche Absolvierung der AZ-900 Zertifizierung ist nicht erforderlich, jedoch wird der Lernweg und die Vorbereitung beschrieben
+   - Ausgeschlossen ist eine weitere Zertifizierung
+- Abschluss: Das Enddatum dieses Projektes ist verbindlich. Nach dem Abschluss des Projektes wird keine Nachbearbeitung geplant
+- Meetings: Meetings werden mit dem Fachdozenten geplant und angepasst
+- Hilfsmittel: Alle Hilfsmittel für die Zertifizierung und die Umsetzung des Projektes sind vorhanden
 
 # Projektorganisation
 ## Beteiligte Personen

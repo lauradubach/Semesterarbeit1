@@ -23,6 +23,13 @@
     - [Azure Blob Storage](#azure-blob-storage)
     - [Vor -und Nachteile](#vor--und-nachteile)
   - [Kostenanalyse](#kostenanalyse)
+    - [Google Cloud Storage](#google-cloud-storage-1)
+    - [Azure Blob Storage](#azure-blob-storage-1)
+    - [Details zusammengetragen](#details-zusammengetragen)
+      - [Speicherpreise (pro GB/Monat)](#speicherpreise-pro-gbmonat)
+      - [Datenübertragungskosten (pro GB)](#datenübertragungskosten-pro-gb)
+      - [Lesevorgänge (pro 10.000 Operationen)](#lesevorgänge-pro-10000-operationen)
+      - [Schreibvorgänge (pro 10.000 Operationen)](#schreibvorgänge-pro-10000-operationen)
   - [Entscheidungsmatrix](#entscheidungsmatrix)
     - [Berechnung der Ergebnisse](#berechnung-der-ergebnisse)
     - [Zusammenfassung der Ergebnisse](#zusammenfassung-der-ergebnisse)
@@ -147,7 +154,7 @@ Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere 
 | **Preisgestaltung** | Transparente Preisgestaltung mit verschiedenen Optionen für Speicherung, Zugriff und Netzwerknutzung. | Transparente Preisgestaltung mit verschiedenen Optionen für Speicherung, Zugriff und Netzwerknutzung. |
 
 | **Nachteile** | Azure Blob Storage | Google Cloud Storage |
-|--------------|--------------------|----------------------|
+|---------------|---------------------|-----------------------|
 | **Lernkurve** | Komplexität der Dienste und Konfigurationen erfordert möglicherweise eine steilere Lernkurve für Anfänger. | Komplexität der Dienste und Konfigurationen erfordert möglicherweise eine steilere Lernkurve für Anfänger. |
 | **Regionale Verfügbarkeit** | Kann je nach Region möglicherweise nicht so weit verbreitet sein wie die Dienste von Google Cloud. | Kann je nach Region möglicherweise nicht so weit verbreitet sein wie die Dienste von Azure. |
 | **Preisvariation** | Die Preisgestaltung kann je nach gewählter Zugriffsebene und Region variieren. | Die Preisgestaltung kann je nach gewählter Speicherklasse und Region variieren. |
@@ -155,17 +162,67 @@ Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere 
  (Chat GPT)
 
 ## Kostenanalyse
+### Google Cloud Storage
+![GoogleCloudStorage](../Pictures/GoogleCloudStorage.png)
+
+(Google One)
+
+### Azure Blob Storage
+![AzureBlobStorage](../Pictures/AzureBlobStorage.png)
+
+(Microsoft)
+
+### Details zusammengetragen
+
+#### Speicherpreise (pro GB/Monat)
+
+| Speicherklasse      | Azure Blob Storage | Google Cloud Storage |
+|---------------------|--------------------|----------------------|
+| Hot/Standard        | $0.0184            | $0.02                |
+| Cool/Nearline       | $0.01              | $0.01                |
+| Archive/Coldline    | $0.00099           | $0.004               |
+| N/A/Archive         | N/A                | $0.0012              |
+
+#### Datenübertragungskosten (pro GB)
+
+| Datenmenge          | Azure Blob Storage | Google Cloud Storage |
+|---------------------|--------------------|----------------------|
+| 0-1 GB              | Kostenlos          | Kostenlos            |
+| 1-5 GB              | Kostenlos          | N/A                  |
+| 5 GB-10 TB          | $0.087             | $0.12                |
+| 10 TB-50 TB         | $0.083             | $0.11                |
+
+#### Lesevorgänge (pro 10.000 Operationen)
+
+| Speicherklasse      | Azure Blob Storage | Google Cloud Storage |
+|---------------------|--------------------|----------------------|
+| Hot/Standard        | $0.004             | $0.004               |
+| Cool/Nearline       | $0.01              | $0.01                |
+| Archive/Coldline    | $0.02              | $0.10                |
+| N/A/Archive         | N/A                | $0.50                |
+
+#### Schreibvorgänge (pro 10.000 Operationen)
+
+| Speicherklasse      | Azure Blob Storage | Google Cloud Storage |
+|---------------------|--------------------|----------------------|
+| Hot/Standard        | $0.005             | $0.05                |
+| Cool/Nearline       | $0.1               | $0.10                |
+| Archive/Coldline    | $0.1               | $0.10                |
+| N/A/Archive         | N/A                | $0.50                |
+
+(ChatGPT)
+
 ## Entscheidungsmatrix
 
-| Kriterium                   | Gewichtung | Google Cloud Storage | Azure Blob Storage | Bewertung Google | Bewertung Azure | Ergebnis Google | Ergebnis Azure |
+| Kriterium | Gewichtung | Google Cloud Storage | Azure Blob Storage | Bewertung Google | Bewertung Azure | Ergebnis Google | Ergebnis Azure |
 |-----------------------------|------------|-----------------------|--------------------|-------------------|-----------------|-----------------|----------------|
-| **Kosten**                  | 20%        | Flexible Preismodelle, jedoch etwas teurer bei hoher Nutzung | Wettbewerbsfähige Preise, besonders günstig bei langfristiger Nutzung | 7                 | 9               | 1.4             | 1.8            |
-| **Leistung**                | 15%        | Hohe Leistung, schnelle Latenzzeiten | Sehr hohe Leistung, optimiert für verschiedene Nutzungsszenarien | 8                 | 9               | 1.2             | 1.35           |
-| **Sicherheit**              | 20%        | Sehr gute Sicherheitsfunktionen, SOC 2, ISO 27001 zertifiziert | Hervorragende Sicherheitsfunktionen, SOC 2, ISO 27001 zertifiziert, zusätzliche Funktionen | 8                 | 9               | 1.6             | 1.8            |
-| **Verfügbarkeit und Zuverlässigkeit** | 15% | Hohe Verfügbarkeit, SLA von 99.95% | Höchste Verfügbarkeit, SLA von 99.99% | 8                 | 9               | 1.2             | 1.35           |
-| **Integration und Ökosystem** | 10%     | Gute Integration mit Google-Diensten und -Tools | Hervorragende Integration mit Microsoft-Diensten und -Tools | 7                 | 9               | 0.7             | 0.9            |
-| **Support und Dokumentation** | 10%     | Ausgezeichneter Support und umfassende Dokumentation | Hervorragender Support, besonders für Unternehmen | 8                 | 9               | 0.8             | 0.9            |
-| **Skalierbarkeit**          | 10%        | Sehr gute Skalierbarkeit | Hervorragende Skalierbarkeit mit verschiedenen Speicheroptionen | 8                 | 9               | 0.8             | 0.9            |
+| **Kosten** | 20% | Flexible Preismodelle, jedoch etwas teurer bei hoher Nutzung | Wettbewerbsfähige Preise, besonders günstig bei langfristiger Nutzung | 7 | 9 | 1.4 | 1.8 |
+| **Leistung** | 15% | Hohe Leistung, schnelle Latenzzeiten | Sehr hohe Leistung, optimiert für verschiedene Nutzungsszenarien | 8 | 9 | 1.2 | 1.35 |
+| **Sicherheit** | 20% | Sehr gute Sicherheitsfunktionen | Hervorragende Sicherheitsfunktionen | 8 | 9 | 1.6 | 1.8 |
+| **Verfügbarkeit und Zuverlässigkeit** | 15% | Hohe Verfügbarkeit, SLA von 99.95% | Höchste Verfügbarkeit, SLA von 99.99% | 8 | 9 | 1.2 | 1.35 |
+| **Integration und Ökosystem** | 10% | Gute Integration mit Google-Diensten und -Tools | Hervorragende Integration mit Microsoft-Diensten und Tools | 7 | 9 | 0.7 | 0.9 |
+| **Support und Dokumentation** | 10% | Ausgezeichneter Support und umfassende Dokumentation | Hervorragender Support, besonders für Unternehmen | 8 | 9 | 0.8 | 0.9 |
+| **Skalierbarkeit** | 10% | Sehr gute Skalierbarkeit | Hervorragende Skalierbarkeit mit verschiedenen Speicheroptionen | 8 | 9 | 0.8 | 0.9 |
 
 ### Berechnung der Ergebnisse
 - Bewertung: Skala von 1 bis 10 (1 = schlecht, 10 = hervorragend)
@@ -180,3 +237,4 @@ Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere 
 | **Azure Blob Storage**      | 9.0             |
 
 
+(Chat GPT)

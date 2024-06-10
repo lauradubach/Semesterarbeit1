@@ -38,10 +38,11 @@
 | 1.0 | 24.05.2024 | Laura Dubach | Inhaltsverzeichnis, Einleitung Dokumentation |
 | 1.1 | 27.05.2024 | Laura Dubach | Titelseite, Weiterarbeit Einleitung Dokumentation, Verlinkung, Zeitplan und Lernplan erstellen |
 | 1.2 | 28.05.2024 | Laura Dubach | Thema Informieren dokumentieren, Verlinkung, Zertifizierungstermin buchen |
-| 1.3 | 30.05.2024 | Laura Dubach | Zeitplan -und Lernplan anpassen, start zusammenfassung AZ-900 Module |
+| 1.3 | 30.05.2024 | Laura Dubach | Zeitplan -und Lernplan anpassen, start zusammenfassung AZ-900 Module, Seusag dokumentieren |
 | 1.4 | 31.05.2024 | Laura Dubach | Besprechungsprotokoll schreiben, Notizen im Notion machen |
 | 1.5 | 03.06.2024 | Laura Dubach | Kapitel Planung dokumentiert, Kapitel Entscheiden gestartet |
 | 1.6 | 05.06.2024 | Laura Dubach | Quellenverzeichniss nachführen, Entscheidungsmatrix starten |
+| 1.7 | 10.06.2024 | Laura Dubach | Kapitel Planen & Entscheiden fertigstellen |
 
 
 # Teil 1 Einleitung
@@ -129,6 +130,7 @@ Für diese Methode habe ich mich entschieden, da wir diese in meiner Lehre für 
 
 ```
 Laura Joana Dubach
+Funktion: Projektleiterin
 P: 079 355 78 24
 Github: lauradubach
 E-Mail: laura.dubach@itnetx.ch
@@ -137,16 +139,19 @@ E-Mail: laura.dubach@itnetx.ch
 
 ```
 Philipp Rohr
+Funktion: Fachdozent
 Github: phrohr
 E-Mail: philipp.rohr@tbz.ch
 ```
 ```
 Samuel Müller
+Funktion: Fachdozent
 Github: 404samnotfound
 E-Mail: samuel.mueller1@tbz.ch
 ```
 ```
 Thanam Pangri
+Funktion: Fachdozent
 Github: tpangri
 E-Mail: thanam.pangri@tbz.ch
 ```

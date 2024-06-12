@@ -9,15 +9,86 @@
 - [Umsetzung](#umsetzung)
   - [Implementierungsplan](#implementierungsplan)
   - [CLI](#cli)
+  - [Probleme](#probleme)
   - [Endprodukt](#endprodukt)
   - [Fallbacksolution](#fallbacksolution)
 - [Kontrollieren](#kontrollieren)
   - [Testing](#testing)
+  - [Schulung Kunde](#schulung-kunde)
 
 
 # Umsetzung
 ## Implementierungsplan
 ## CLI
+```bash
+#!/bin/bash
+
+if ! az account show > /dev/null 2>&1; then
+  echo "Bitte melde dich bei der Azure CLI an..."
+  az login
+fi
+
+# Variablen setzen
+RESOURCE_GROUP="sa1blobresource"
+LOCATION="switzerlandnorth"
+STORAGE_ACCOUNT_NAME="sa1blobstorage"
+CONTAINER_NAME="sa1blobcontainer"
+FILES_TO_UPLOAD="C:\Users\laura\Documents\Test.txt"
+EXPIRY_DATE=$(date -u -d "1 day" '+%Y-%m-%dT%H:%MZ')
+
+# Azure Resource Group erstellen
+az group create --name $RESOURCE_GROUP --location $LOCATION
+
+# Azure Storage Account erstellen
+az storage account create --name $STORAGE_ACCOUNT_NAME --resource-group $RESOURCE_GROUP --location $LOCATION --sku Standard_LRS --kind StorageV2
+
+# Blob-Container erstellen
+az storage container create --account-name $STORAGE_ACCOUNT_NAME --name $CONTAINER_NAME
+
+#Account key erstellen
+ACCOUNT_KEY=$(az storage account keys list --account-name $STORAGE_ACCOUNT_NAME --query "[?keyName=='key2'].value" --output tsv --output tsv)
+
+# SAS-Token generieren
+SAS_TOKEN=$(az storage container generate-sas --name $CONTAINER_NAME --account-name $STORAGE_ACCOUNT_NAME \
+    --permissions rwdl --expiry $EXPIRY_DATE --auth-mode key \
+    --account-key $ACCOUNT_KEY)
+
+# Vollständige SAS-URL
+SAS_URL="https://${STORAGE_ACCOUNT_NAME}.blob.core.windows.net/${CONTAINER_NAME}?${SAS_TOKEN}"
+
+echo $SAS_TOKEN
+echo $SAS_URL
+
+# Dateien hochladen mit az storage blob upload-batch
+az storage blob upload --account-name $STORAGE_ACCOUNT_NAME --account-key $ACCOUNT_KEY --container-name $CONTAINER_NAME --file $FILES_TO_UPLOAD --name myblob
+
+echo "Dateien erfolgreich hochgeladen."
+```
+
+## Probleme
+```bash
+ERROR: incorrect usage: specify '--auth-mode login' when as-user is enabled
+
+#Account key erstellen
+ACCOUNT_KEY=$(az storage account keys list --account-name $STORAGE_ACCOUNT_NAME --query "[?keyName=='key2'].value" --output tsv --output tsv)
+
+#SAS-Token generieren
+SAS_TOKEN=$(az storage container generate-sas --name $CONTAINER_NAME --account-name $STORAGE_ACCOUNT_NAME \
+    --permissions rwdl --expiry $EXPIRY_DATE --auth-mode key \
+    --account-key $ACCOUNT_KEY)
+
+Fogendes gemacht:
+
+Key zuerst erstellt und dann as-user entfernt. zusätzlich --name $CONTAINER_NAME nach oben verschoben
+
+Danach kam das nächste problem: azcopy: command not found
+
+Ich habe dann az Storage upload verwendet
+
+https://learn.microsoft.com/en-us/cli/azure/storage/blob?view=azure-cli-latest
+```
+
+
 ## Endprodukt
 ## Fallbacksolution
 

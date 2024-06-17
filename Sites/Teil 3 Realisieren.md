@@ -18,7 +18,11 @@
 
 
 # Umsetzung
+
 ## Implementierungsplan
+
+![Implementierungsplan](../Pictures/Implementierungsplan.png)
+
 ## CLI
 ```bash
 #!/bin/bash
@@ -66,9 +70,14 @@ echo "Dateien erfolgreich hochgeladen."
 ```
 
 ## Probleme
-```bash
-ERROR: incorrect usage: specify '--auth-mode login' when as-user is enabled
 
+Folgenden Error habe ich erhalten:
+
+``ERROR: incorrect usage: specify '--auth-mode login' when as-user is enabled``
+
+Er hatte ein Problem mit dem Key erstellen, den Code musste ich dann anpassen:
+
+```bash
 #Account key erstellen
 ACCOUNT_KEY=$(az storage account keys list --account-name $STORAGE_ACCOUNT_NAME --query "[?keyName=='key2'].value" --output tsv --output tsv)
 
@@ -76,18 +85,19 @@ ACCOUNT_KEY=$(az storage account keys list --account-name $STORAGE_ACCOUNT_NAME 
 SAS_TOKEN=$(az storage container generate-sas --name $CONTAINER_NAME --account-name $STORAGE_ACCOUNT_NAME \
     --permissions rwdl --expiry $EXPIRY_DATE --auth-mode key \
     --account-key $ACCOUNT_KEY)
-
-Fogendes gemacht:
-
-Key zuerst erstellt und dann as-user entfernt. zusätzlich --name $CONTAINER_NAME nach oben verschoben
-
-Danach kam das nächste problem: azcopy: command not found
-
-Ich habe dann az Storage upload verwendet
-
-https://learn.microsoft.com/en-us/cli/azure/storage/blob?view=azure-cli-latest
 ```
 
+Fogendes habe ich effekiv gemacht:
+
+Der code für den Key zu erstellen war zuerst am falschen Platz. Diesen musste ich zuerst erstellen. Dann musste ich im code noch as-user entfernen, da dies nicht gepasst hat und er dies nicht im kontext gekannt hat. Zusätzlich musste ich die Line ``--name $CONTAINER_NAME`` nach oben verschieben.
+
+Danach kam das nächste problem:
+
+``azcopy: command not found``
+
+Ich habe dann az Storage upload verwendet, weil es mit azcopy nicht geklappt hat.
+
+Folgenden Link habe ich verwendet: https://learn.microsoft.com/en-us/cli/azure/storage/blob?view=azure-cli-latest
 
 ## Endprodukt
 ## Fallbacksolution

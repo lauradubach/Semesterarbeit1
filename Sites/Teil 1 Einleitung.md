@@ -43,7 +43,7 @@
 | 1.5 | 03.06.2024 | Laura Dubach | Kapitel Planung dokumentiert, Kapitel Entscheiden gestartet |
 | 1.6 | 05.06.2024 | Laura Dubach | Quellenverzeichniss nachführen, Entscheidungsmatrix starten |
 | 1.7 | 10.06.2024 | Laura Dubach | Kapitel Planen & Entscheiden fertigstellen |
-
+| 1.8 | 17.06.2024 | Laura Dubach | Implementierungsplan, Umsetzung dokumentiert |
 
 # Teil 1 Einleitung
 Mit der erfolgreichen Umsetzung dieses Projekts wird das Unternehmen in der Lage sein, große Datenmengen effizient, sicher und kostengünstig zu speichern und zu verwalten. Dies führt zu einer verbesserten Datenverfügbarkeit, niedrigeren Betriebskosten und einer erhöhten Gesamteffizienz im Datenmanagement.

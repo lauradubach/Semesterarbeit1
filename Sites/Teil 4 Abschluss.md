@@ -6,6 +6,8 @@
 
 - [Teil 4 Abschluss](#teil-4-abschluss)
 - [Auswerten](#auswerten)
+  - [Zertifizierung](#zertifizierung)
+  - [Implementierungsplan](#implementierungsplan)
   - [Auswertung Tests](#auswertung-tests)
   - [Zusammenfassung](#zusammenfassung)
   - [Reflexion](#reflexion)
@@ -14,6 +16,17 @@
   - [Glossar](#glossar)
 
 # Auswerten
+## Zertifizierung
+Für den Theorie Nachweis dieser Arbeit habe ich das AZ-900 Zertifikat absolviert und bestanden:
+
+![AZ-900](../Pictures/AZ-900.png)
+
+https://learn.microsoft.com/api/credentials/share/en-us/DubachLaura-7204/42E56558D902971B?sharingId=EDE9AF3791EEEFD2
+
+## Implementierungsplan
+
+![Implementierungsplan](../Pictures/Implementierungsplan.png)
+
 ## Auswertung Tests
 ## Zusammenfassung
 ## Reflexion

@@ -19,10 +19,6 @@
 
 # Umsetzung
 
-## Implementierungsplan
-
-![Implementierungsplan](../Pictures/Implementierungsplan.png)
-
 ## CLI
 ```bash
 #!/bin/bash

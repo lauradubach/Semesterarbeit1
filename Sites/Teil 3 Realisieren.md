@@ -7,7 +7,9 @@
 
 - [Teil 3 Realisieren](#teil-3-realisieren)
 - [Umsetzung](#umsetzung)
-  - [Implementierungsplan](#implementierungsplan)
+  - [Lernprozess Zertifizierung](#lernprozess-zertifizierung)
+    - [Module lesen und Zusammenfassen](#module-lesen-und-zusammenfassen)
+    - [Übungen machen](#übungen-machen)
   - [CLI](#cli)
   - [Probleme](#probleme)
   - [Endprodukt](#endprodukt)
@@ -19,7 +21,29 @@
 
 # Umsetzung
 
+## Lernprozess Zertifizierung
+Um mich optimal auf die Zertifizierung vorzubereiten habe ich einige Lernschritte verfolgt
+
+### Module lesen und Zusammenfassen
+Als ich alle Azure Module von Microsoft Learn durchgearbeitet habe, habe ich alle in einem Repository zusammengefasst
+https://github.com/lauradubach/AZ-900
+
+Diese habe ich dann durchgelesen und studiert.
+
+### Übungen machen
+Nun habe ich gestartet mit Braindumps und probeprüfungen. Folgende Sites habe ich verwendet:
+1. https://www.passnexam.com/microsoft/az-900
+2. https://www.examtopics.com/exams/microsoft/az-900/view/
+3. https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/practice/assessment?assessment-type=practice&assessmentId=23&practice-assessment-type=certification
+
+Da mir dies nicht ganz gereicht hat, habe ich mir eine Mobileapp heruntergeladen und mit dieser Täglich geübt
+
+![AppAZ-900](../Pictures/AppAZ900.png)
+
+
 ## CLI
+Um mein Projekt umzusetzten, habe ich ein Bash Skript geschrieben.
+
 ```bash
 #!/bin/bash
 
@@ -83,7 +107,7 @@ SAS_TOKEN=$(az storage container generate-sas --name $CONTAINER_NAME --account-n
     --account-key $ACCOUNT_KEY)
 ```
 
-Fogendes habe ich effekiv gemacht:
+Fogendes habe ich gemacht:
 
 Der code für den Key zu erstellen war zuerst am falschen Platz. Diesen musste ich zuerst erstellen. Dann musste ich im code noch as-user entfernen, da dies nicht gepasst hat und er dies nicht im kontext gekannt hat. Zusätzlich musste ich die Line ``--name $CONTAINER_NAME`` nach oben verschieben.
 

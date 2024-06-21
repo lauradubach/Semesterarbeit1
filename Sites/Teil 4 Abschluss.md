@@ -12,7 +12,6 @@
   - [Zusammenfassung](#zusammenfassung)
   - [Reflexion](#reflexion)
   - [Quellen](#quellen)
-  - [Abbildungsverzeichnis](#abbildungsverzeichnis)
   - [Glossar](#glossar)
 
 # Auswerten
@@ -62,5 +61,4 @@ Microsoft. (2024): Azure Blob Storage – Preise. Aufgerufen am: 10.06.2024. Onl
 Kapitel Kostenanalyse, Site Vorbereitung
 ChatGPT. (2024): Mach mir bitte eine Kostenanalyse vom Azure Blob Storage und Google Cloud Storage. Aufgerufen am: 10.06.2024. Online unter: https://chatgpt.com/c/78571786-8d35-4794-b488-51f2e033d5ee
 
-## Abbildungsverzeichnis
 ## Glossar

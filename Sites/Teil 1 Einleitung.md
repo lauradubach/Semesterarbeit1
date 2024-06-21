@@ -44,6 +44,7 @@
 | 1.6 | 05.06.2024 | Laura Dubach | Quellenverzeichniss nachführen, Entscheidungsmatrix starten |
 | 1.7 | 10.06.2024 | Laura Dubach | Kapitel Planen & Entscheiden fertigstellen |
 | 1.8 | 17.06.2024 | Laura Dubach | Implementierungsplan, Umsetzung dokumentiert |
+| 1.9 | 21.06.2024 | Laura Dubach | Gespräch mit Philipp, Seusag überarbeiten, weiter am Kapitel Umsetzung dokumentieren |
 
 # Teil 1 Einleitung
 Mit der erfolgreichen Umsetzung dieses Projekts wird das Unternehmen in der Lage sein, große Datenmengen effizient, sicher und kostengünstig zu speichern und zu verwalten. Dies führt zu einer verbesserten Datenverfügbarkeit, niedrigeren Betriebskosten und einer erhöhten Gesamteffizienz im Datenmanagement.
@@ -103,7 +104,6 @@ Für diese Methode habe ich mich entschieden, da wir diese in meiner Lehre für 
 
 #### Technologische Systemgrenzen
 - Zugriffsmanagement: Berechtigungskonzept gehört nicht zu diesem Projekt dazu
-- Nutzung: Die Nutzung des Azure Blob Storage wird beschrieben
 - Datenreplikation: Die Daten werden nicht repliziert
 - Datenintegration: Es werden Testdaten im Storage integriert, jedoch nur für Testzwecke und zur Darstellung
 - Verschlüsselung: Die Verschlüsselung der Daten wird beschrieben und angewendet
@@ -111,8 +111,9 @@ Für diese Methode habe ich mich entschieden, da wir diese in meiner Lehre für 
 - Backup und Wiederherstellung: Das Backup vom BlobStorage wird in diesem Projekt nicht angewendet oder beschrieben
 
 #### Organisatorische Systemgrenzen
-- Umgebung: Die Umgebung des Storages wird gezeigt und erläutert
+- Storage Umgebung: Die Umgebung des Storages wird gezeigt und erläutert
 - Gemeinsame Nutzung: Es wird kein zweiter user erstellt, oder die gemeinsame Nutzung erläutert
+- Nutzung Storage: Die Nutzung des Azure Blob Storage wird beschrieben
 - Projektmanagement: Die Methode wird beschrieben und umgesetzt
 - Unterstützung: Zur Unterstützung des Projektes werden die Fachdozenten und die Modulunterlagen verwendet
 
@@ -120,7 +121,7 @@ Für diese Methode habe ich mich entschieden, da wir diese in meiner Lehre für 
 - Zertifizierung: Die erfolgreiche Absolvierung der AZ-900 Zertifizierung ist nicht erforderlich, jedoch wird der Lernweg und die Vorbereitung beschrieben
    - Ausgeschlossen ist eine weitere Zertifizierung
 - Abschluss: Das Enddatum dieses Projektes ist verbindlich. Nach dem Abschluss des Projektes wird keine Nachbearbeitung geplant
-- Meetings: Meetings werden mit dem Fachdozenten geplant und angepasst
+- Meetings: Es weden Zwischengespräche mit dem Fachdozenten gehalten und diese werden dokumentiert. Meetings werden mit dem Fachdozenten geplant und angepasst
 - Hilfsmittel: Alle Hilfsmittel für die Zertifizierung und die Umsetzung des Projektes sind vorhanden
 
 # Projektorganisation
@@ -168,6 +169,7 @@ Damit keine Daten verloren gehen können, werde ich alle Dokumente, auf meinem O
 ![Lernplan](../Pictures/Lernplan.png)
 
 # Besprechungsprotokoll
+## Zwischengespräch 1
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |
@@ -185,11 +187,22 @@ Danach habe ich mich mit Philipp über Teams getroffen. Er meinte ChatGPT soll i
 
 Das Gespräch war sehr gut und Philipp konnte all meine Fragen beantworten. So kann ich meine Smesterabreit nun gut weiterführen.
 
+## Zwischengespräch 2
+
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |
-| 2 | 24.06.2024 | 18:00 | Philipp Rohr, Laura Dubach |
+| 2 | 21.06.2024 | 19:00 | Philipp Rohr, Laura Dubach |
 
-Besprechungsnotiz
+### Besprechungsnotiz
+
+Wie beim ersten Gespräch, habe ich mir im vorhinein meine Fragen im Notion notiert.
+
+1. Seusag gemeinsam anschauen
+2. Darstellung der Verwaltungswerkzeuge und -prozesse für den laufenden Betrieb -> Was ist damit effektiv gemeint, wie soll ich das dokumentieren?
+3. Implementierungsplan gemeinsam anschauen
+4. Abbildungsverzeichnis wie soll ich dies darstellen?
+
+
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |

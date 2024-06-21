@@ -20,6 +20,7 @@
 
 
 # Umsetzung
+In diesem kapitel wird die Umsetzung des Projektes beschrieben und genaue gezeigt.
 
 ## Lernprozess Zertifizierung
 Um mich optimal auf die Zertifizierung vorzubereiten habe ich einige Lernschritte verfolgt
@@ -120,8 +121,58 @@ Ich habe dann az Storage upload verwendet, weil es mit azcopy nicht geklappt hat
 Folgenden Link habe ich verwendet: https://learn.microsoft.com/en-us/cli/azure/storage/blob?view=azure-cli-latest
 
 ## Endprodukt
+Mit dem CLI Skript wird alles automatisch erstellt und zur veranschauung wird ein Test File bereits hochgeladen. Es kann über den Microsoft Azure Storage Explorer weitere Files hochgeladen werden, welche Automatisch auch in der Azure Cloud dann gespeichert wird.
+
+Ansicht vom Microsoft Azure Storage Explorer:
+
+!Bild einfügen!
+
 ## Fallbacksolution
+Wenn etwas nicht klappen würde, habe ich ein Zusätzliches Skript geschrieben, welches die erstellten recoursen wieder löscht.
+
+Hier das Skript:
+```bash
+#!/bin/bash
+
+# Variablen setzen
+RESOURCE_GROUP="sa1blobresource"
+STORAGE_ACCOUNT_NAME="sa1blobstorage"
+
+# Prüfen, ob die Azure CLI authentifiziert ist
+if ! az account show > /dev/null 2>&1; then
+  echo "Bitte melde dich bei der Azure CLI an..."
+  az login
+fi
+
+# Resource Group löschen
+echo "Löschen der Resource Group $RESOURCE_GROUP ..."
+az group delete --name $RESOURCE_GROUP --yes --no-wait
+
+# Prüfen, ob die Resource Group gelöscht wurde
+if [ $? -eq 0 ]; then
+  echo "Resource Group $RESOURCE_GROUP erfolgreich zum Löschen markiert."
+else
+  echo "Fehler beim Löschen der Resource Group $RESOURCE_GROUP."
+  exit 1
+fi
+
+# az storage account show --name $STORAGE_ACCOUNT_NAME --resource-group $RESOURCE_GROUP
+echo "Löschen des Storage Accounts $STORAGE_ACCOUNT_NAME ..."
+az storage account delete --name $STORAGE_ACCOUNT_NAME --resource-group $RESOURCE_GROUP --yes
+
+# Prüfen, ob der Storage Account gelöscht wurde
+if [ $? -eq 0 ]; then
+  echo "Storage Account $STORAGE_ACCOUNT_NAME erfolgreich gelöscht."
+else
+  echo "Fehler beim Löschen des Storage Accounts $STORAGE_ACCOUNT_NAME."
+  exit 1
+fi
+
+echo "Vorgang abgeschlossen."
+```
 
 # Kontrollieren
 ## Testing
+
 ## Schulung Kunde
+Da die Kunden die Umgebung nicht kennen, würde eine Schulung stattfinden, um den Microsoft Azure Storage Explorer genau zu zeigen und alle Features zu erläutern. Wenn eine Interne IT vorhanden wäre, würde eine weitere Schulung für Sie stattfinden, um die ganze Azure Umgebung vorzustellen und zu zeigen, dass auch Sie allfällige Probleme lösen könnten.

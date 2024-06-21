@@ -28,7 +28,11 @@
 - [Zeitplan](#zeitplan)
 - [Lernplan](#lernplan)
 - [Besprechungsprotokoll](#besprechungsprotokoll)
+  - [Zwischengespräch 1](#zwischengespräch-1)
     - [Besprechungsnotiz](#besprechungsnotiz)
+  - [Zwischengespräch 2](#zwischengespräch-2)
+    - [Besprechungsnotiz](#besprechungsnotiz-1)
+  - [Zwischengespräch 3](#zwischengespräch-3)
 
 
 # Versionenverzeichniss
@@ -44,7 +48,7 @@
 | 1.6 | 05.06.2024 | Laura Dubach | Quellenverzeichniss nachführen, Entscheidungsmatrix starten |
 | 1.7 | 10.06.2024 | Laura Dubach | Kapitel Planen & Entscheiden fertigstellen |
 | 1.8 | 17.06.2024 | Laura Dubach | Implementierungsplan, Umsetzung dokumentiert |
-| 1.9 | 21.06.2024 | Laura Dubach | Gespräch mit Philipp, Seusag überarbeiten, weiter am Kapitel Umsetzung dokumentieren |
+| 1.9 | 21.06.2024 | Laura Dubach | Gespräch mit Philipp, Besprechungsprotokoll schreiben, Seusag überarbeiten, weiter am Kapitel Umsetzung dokumentieren |
 
 # Teil 1 Einleitung
 Mit der erfolgreichen Umsetzung dieses Projekts wird das Unternehmen in der Lage sein, große Datenmengen effizient, sicher und kostengünstig zu speichern und zu verwalten. Dies führt zu einer verbesserten Datenverfügbarkeit, niedrigeren Betriebskosten und einer erhöhten Gesamteffizienz im Datenmanagement.
@@ -202,7 +206,11 @@ Wie beim ersten Gespräch, habe ich mir im vorhinein meine Fragen im Notion noti
 3. Implementierungsplan gemeinsam anschauen
 4. Abbildungsverzeichnis wie soll ich dies darstellen?
 
+Nun habe ich mich mit Philipp über Teams getroffen. Wir haben uns mein  Seusag Grafik angeschaut. Er hatte ein paar Ideen, dass man die Grafik besser versteht. Die Titel anzupassen oder die Farben zu verändern, so das man versteht was im Projekt integriert wird und was nicht. Das einte Ziel "Darstellung der Verwaltungswerkzeuge und -prozesse für den laufenden Betrieb" soll ich als Endprodukt darstellen, so wie ich es mir ungefähr schon gedacht hatte. Danach haben wir mein Implementierungsplan angesehen. Dieser fand er gut und deshalb belasse ich Ihn so. Das Abbildungsverzeichnis kann ich weglassen, meinte er, da die Verlinkung zu kompliziert ist und zu lange dauert. Zum schluss haben wir uns noch die Quellen angesehen. Dort soll ich noch bei den angegebenen Seiten den Link gleich einfügen.
 
+Das Gespräch verlief gut und nun kann ich gut weiterarbeiten und die Anpassungen vornehmen.
+
+## Zwischengespräch 3
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |

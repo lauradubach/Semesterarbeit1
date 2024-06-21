@@ -15,6 +15,8 @@
   - [Glossar](#glossar)
 
 # Auswerten
+In diesem Kapitel wird das Projekt ausgewertet. Es wird erläutert wie das Projekt war und wie es nächstes mal auch besser gemacht werden könnte.
+
 ## Zertifizierung
 Für den Theorie Nachweis dieser Arbeit habe ich das AZ-900 Zertifikat absolviert und bestanden:
 

@@ -96,6 +96,8 @@ Folgende Punkte werde ich verfolgen:
   5. Bei Dozenten um ratschläge un Tipps fragen
 
 # Planen
+In diesem Kapitel werde ich die Planung des Projektes schildern.
+
 ## Ist Situation
 
 ![IST-Zustand](../Pictures/IST-Zustand.png)
@@ -116,6 +118,8 @@ Folgende Punkte werde ich verfolgen:
 - Kostenkontrolle: Bessere Kostentransparenz und -kontrolle durch nutzungsabhängige Abrechnung.
 
 # Entscheiden
+In diesem Kapitel werden die Entscheidungen des Projektes gezeigt und wie Sie zustande gekommen sind.
+
 ## Produkt Vergleich
 ### Google Cloud Storage
 

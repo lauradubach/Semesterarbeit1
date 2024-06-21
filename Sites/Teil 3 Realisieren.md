@@ -172,6 +172,8 @@ echo "Vorgang abgeschlossen."
 ```
 
 # Kontrollieren
+In diesem Kapitel wird das Projekt kontrolliert und alles getestet.
+
 ## Testing
 
 ## Schulung Kunde

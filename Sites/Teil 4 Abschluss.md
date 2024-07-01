@@ -135,9 +135,6 @@ Chat GPT. (2024): Bitte das gleiche für den azure blob storage. Aufgerufen am: 
 Kapitel Produkt Vergleich, Site Vorbereitung
 Chat GPT. (2024): Bitte mach mir eine tabelle mit den vor-und nachteilen von blob storage und von google cloud storage. Aufgerufen am: 03.06.2024. Online unter: https://chatgpt.com/c/fcc7372d-2c2c-46dd-bdc1-bf83965fece2
 
-Kapitel Entscheidungsmatrix, Site Vorbereitung
-Chat GPT. (2024): Kannst du mir eine Entscheidungsmatrix erstellen zu google cloud storage und azure blob storage. Azure blob storage soll gewinnen. Aufgerufen am: 05.06.2024. Online unter: https://chatgpt.com/c/015826d1-6244-499c-b532-002febf87dba
-
 Kapitel Kostenanalyse, Site Vorbereitung
 Google One. (2024): Abos und Preise. Aufgerufen am: 10.06.2024. Online unter: https://one.google.com/about/plans?hl=de&g1_landing_page=0
 
@@ -146,6 +143,9 @@ Microsoft. (2024): Azure Blob Storage – Preise. Aufgerufen am: 10.06.2024. Onl
 
 Kapitel Kostenanalyse, Site Vorbereitung
 ChatGPT. (2024): Mach mir bitte eine Kostenanalyse vom Azure Blob Storage und Google Cloud Storage. Aufgerufen am: 10.06.2024. Online unter: https://chatgpt.com/c/78571786-8d35-4794-b488-51f2e033d5ee
+
+Kapitel Entscheidungsmatrix, Site Vorbereitung
+Chat GPT. (2024): Kannst du mir eine Entscheidungsmatrix erstellen zu google cloud storage und azure blob storage. Azure blob storage soll gewinnen. Aufgerufen am: 05.06.2024. Online unter: https://chatgpt.com/c/015826d1-6244-499c-b532-002febf87dba
 
 ## Glossar
 

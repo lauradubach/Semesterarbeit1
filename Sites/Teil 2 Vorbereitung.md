@@ -1,9 +1,5 @@
 # Teil 2 Vorbereitung
 
-> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%201%20Einleitung.md)
->
-> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%203%20Realisieren.md)
-
 - [Teil 2 Vorbereitung](#teil-2-vorbereitung)
 - [Informieren](#informieren)
   - [Bedürfnisse der Unternehmen](#bedürfnisse-der-unternehmen)
@@ -64,7 +60,7 @@ Unternehmen haben spezifische Anforderungen an Datenvolumen, Zugriffszeiten und 
 
 ### Zusammenfassung
 Unternehmen müssen ihre spezifischen Bedürfnisse hinsichtlich Datenvolumen, Zugriffszeiten und Sicherheit klar verstehen und darstellen, um ihre IT-Infrastruktur effizient zu planen und zu verwalten. Diese Bedürfnisse werden durch detaillierte Analysen, Simulationen und Nutzerfeedback erhoben und durch strukturierte Dokumentationen, Dashboards und Berichte visualisiert und kommuniziert. Durch die sorgfältige Erhebung und Darstellung dieser Anforderungen können Unternehmen sicherstellen, dass ihre Datenstrategien effektiv, skalierbar und sicher sind.
-(Chat GPT)
+> (Chat GPT) [Quelle](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 
 ## Beschreibung Big Data
 Big Data ist ein Begriff, der die große Menge, Geschwindigkeit und Vielfalt an Daten beschreibt, die Unternehmen und Organisationen heutzutage verarbeiten und analysieren müssen. Die Besonderheiten und Herausforderungen von Big Data lassen sich in vier Hauptdimensionen zusammenfassen: Volumen, Geschwindigkeit, Vielfalt und Auswertung.
@@ -83,7 +79,7 @@ Big Data ist ein Begriff, der die große Menge, Geschwindigkeit und Vielfalt an 
 
 ### Fazit
 Big Data bietet enorme Möglichkeiten, bringt aber auch erhebliche Herausforderungen mit sich. Unternehmen und Organisationen müssen in geeignete Technologien, Prozesse und Fachkräfte investieren, um das Potenzial von Big Data voll auszuschöpfen und gleichzeitig die damit verbundenen Herausforderungen zu bewältigen.
-(Chat GPT)
+> (Chat GPT) [Quelle](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 
 ## Vorbereitung Zertifizierung
 Um mich gut auf die Zertifizierung vorzubereiten, werde ich als erstes einen Lernplan erstellen.
@@ -131,7 +127,8 @@ Google Cloud Storage (GCS) ist ein skalierbarer, hochverfügbarer Objektspeicher
 
 Der Dienst ist hoch skalierbar und gewährleistet eine Verfügbarkeit von 99,95% und eine Datenlanglebigkeit von 99,999999999% (11 Neunen). Sicherheit wird durch standardmäßige Verschlüsselung der Daten im Ruhezustand und während der Übertragung sowie durch fein abgestimmte Zugangskontrollen über Identity and Access Management (IAM) gewährleistet. GCS unterstützt auch Lebenszyklusrichtlinien, die das automatische Verschieben oder Löschen von Objekten ermöglichen. Google Cloud Storage lässt sich nahtlos in andere Google Cloud-Dienste und Drittanbieteranwendungen integrieren und eignet sich für verschiedene Anwendungsfälle wie Datensicherung und -wiederherstellung, Content Delivery, Big Data und Analyse sowie Archivierung. Die Preisgestaltung basiert auf Speicherklasse, Datenmenge, Datenzugriff, Operationen und Netzwerknutzung, wodurch eine flexible Kostenstruktur geboten wird.
 
-Insgesamt bietet GCS eine leistungsfähige, flexible und sichere Lösung für Unternehmen, die große Datenmengen verwalten müssen. (ChatGPT)
+Insgesamt bietet GCS eine leistungsfähige, flexible und sichere Lösung für Unternehmen, die große Datenmengen verwalten müssen.
+> (Chat GPT) [Quelle](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 
 
 ### Azure Blob Storage
@@ -144,7 +141,8 @@ Azure Blob Storage ist ein skalierbarer und hochverfügbarer Objektspeicherdiens
 
 Der Dienst ist hoch skalierbar und gewährleistet eine hohe Verfügbarkeit sowie eine Datenlanglebigkeit von 99,99999999999999% (16 Neunen). Sicherheit wird durch standardmäßige Verschlüsselung der Daten im Ruhezustand und während der Übertragung sowie durch fein abgestimmte Zugangskontrollen über Role-Based Access Control (RBAC) und Azure Active Directory (AAD) gewährleistet. Azure Blob Storage unterstützt auch Lebenszyklusrichtlinien, die das automatische Verschieben oder Löschen von Blobs basierend auf benutzerdefinierten Regeln ermöglichen. Azure Blob Storage lässt sich nahtlos in andere Azure-Dienste und Drittanbieteranwendungen integrieren und eignet sich für verschiedene Anwendungsfälle wie Datensicherung und -wiederherstellung, Content Delivery, Big Data und Analyse sowie Archivierung. Die Preisgestaltung basiert auf Zugriffsebene, Datenmenge, Datenzugriff, Operationen und Netzwerknutzung, wodurch eine flexible Kostenstruktur geboten wird.
 
-Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere Lösung für Unternehmen, die große Datenmengen verwalten müssen. (Chat GPT)
+Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere Lösung für Unternehmen, die große Datenmengen verwalten müssen.
+> (Chat GPT) [Quelle](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 
 ### Vor -und Nachteile
 
@@ -163,18 +161,18 @@ Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere 
 | **Regionale Verfügbarkeit** | Kann je nach Region möglicherweise nicht so weit verbreitet sein wie die Dienste von Google Cloud. | Kann je nach Region möglicherweise nicht so weit verbreitet sein wie die Dienste von Azure. |
 | **Preisvariation** | Die Preisgestaltung kann je nach gewählter Zugriffsebene und Region variieren. | Die Preisgestaltung kann je nach gewählter Speicherklasse und Region variieren. |
 
- (Chat GPT)
+> (Chat GPT) [Quelle](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 
 ## Kostenanalyse
 ### Google Cloud Storage
 ![GoogleCloudStorage](../Pictures/GoogleCloudStorage.png)
 
-(Google One)
+> (Google One) [Quelle](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 
 ### Azure Blob Storage
 ![AzureBlobStorage](../Pictures/AzureBlobStorage.png)
 
-(Microsoft)
+> (Microsoft) [Quelle](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 
 ### Details zusammengetragen
 
@@ -214,7 +212,7 @@ Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere 
 | Archive/Coldline    | $0.1               | $0.10                |
 | N/A/Archive         | N/A                | $0.50                |
 
-(ChatGPT)
+> (Chat GPT) [Quelle](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 
 ## Entscheidungsmatrix
 
@@ -239,6 +237,10 @@ Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere 
 |-----------------------------|-----------------|
 | **Google Cloud Storage**    | 7.7             |
 | **Azure Blob Storage**      | 9.0             |
+> (Chat GPT) [Quelle](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 
 
-(Chat GPT)
+
+> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%201%20Einleitung.md)
+>
+> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%203%20Realisieren.md)

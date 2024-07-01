@@ -1,9 +1,5 @@
 # Blob Storage & Azure Zertifizierung 
 
-> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/README.md)
->
-> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%202%20Vorbereitung.md)
-
 - [Blob Storage \& Azure Zertifizierung](#blob-storage--azure-zertifizierung)
 - [Versionenverzeichniss](#versionenverzeichniss)
 - [Teil 1 Einleitung](#teil-1-einleitung)
@@ -49,6 +45,7 @@
 | 1.7 | 10.06.2024 | Laura Dubach | Kapitel Planen & Entscheiden fertigstellen |
 | 1.8 | 17.06.2024 | Laura Dubach | Implementierungsplan, Umsetzung dokumentiert |
 | 1.9 | 21.06.2024 | Laura Dubach | Gespräch mit Philipp, Besprechungsprotokoll schreiben, Seusag überarbeiten, weiter am Kapitel Umsetzung dokumentieren |
+| 2.0 | 01.07.2024 | Laura Dubach | Testfälle dokumentiert, Thema Sicherheit dokumentiert, Quellen verlinkt |
 
 # Teil 1 Einleitung
 Mit der erfolgreichen Umsetzung dieses Projekts wird das Unternehmen in der Lage sein, große Datenmengen effizient, sicher und kostengünstig zu speichern und zu verwalten. Dies führt zu einer verbesserten Datenverfügbarkeit, niedrigeren Betriebskosten und einer erhöhten Gesamteffizienz im Datenmanagement.
@@ -95,7 +92,8 @@ Viele Unternehmen stehen vor der Herausforderung, große Mengen an Daten effizie
 - Notion
 
 ## Methode IPERKA
-Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projektes verwendet. Sie hilft dabei, ein Projekt von Grund auf gut zu planen und zu verstehen. Man soll jeden Schritt genau durchführen, um jegliche Probleme umgehen zu können. Zum Schluss der Methode wird auch verlangt, dass man das Projekt reflektiert, um aus allfälligen Fehlern auch lernen zu können. (Bexio 2020)
+Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projektes verwendet. Sie hilft dabei, ein Projekt von Grund auf gut zu planen und zu verstehen. Man soll jeden Schritt genau durchführen, um jegliche Probleme umgehen zu können. Zum Schluss der Methode wird auch verlangt, dass man das Projekt reflektiert, um aus allfälligen Fehlern auch lernen zu können.  
+> (Bexio 2020) [Quelle](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
 
 ![IPERKA](../Pictures/IPERKA.png)
 
@@ -217,3 +215,7 @@ Das Gespräch verlief gut und nun kann ich gut weiterarbeiten und die Anpassunge
 | 3 | 1.07.2024 | 18:00 | Philipp Rohr, Laura Dubach |
 
 Besprechungsnotiz
+
+> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/README.md)
+>
+> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%202%20Vorbereitung.md)

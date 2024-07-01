@@ -1,21 +1,20 @@
 # Teil 3 Realisieren
 
-> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%202%20Vorbereitung.md)
->
-> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)
-
-
 - [Teil 3 Realisieren](#teil-3-realisieren)
 - [Umsetzung](#umsetzung)
   - [Lernprozess Zertifizierung](#lernprozess-zertifizierung)
     - [Module lesen und Zusammenfassen](#module-lesen-und-zusammenfassen)
     - [Übungen machen](#übungen-machen)
+  - [Implementierungsplan](#implementierungsplan)
   - [CLI](#cli)
+  - [Sicherheit](#sicherheit)
   - [Probleme](#probleme)
   - [Endprodukt](#endprodukt)
   - [Fallbacksolution](#fallbacksolution)
 - [Kontrollieren](#kontrollieren)
   - [Testing](#testing)
+    - [Testkonzept](#testkonzept)
+    - [Testdurchführung](#testdurchführung)
   - [Schulung Kunde](#schulung-kunde)
 
 
@@ -41,6 +40,9 @@ Da mir dies nicht ganz gereicht hat, habe ich mir eine Mobileapp heruntergeladen
 
 ![AppAZ-900](../Pictures/AppAZ900.png)
 
+## Implementierungsplan
+
+![Implementierungsplan](../Pictures/Implementierungsplan.png)
 
 ## CLI
 Um mein Projekt umzusetzten, habe ich ein Bash Skript geschrieben.
@@ -90,8 +92,10 @@ az storage blob upload --account-name $STORAGE_ACCOUNT_NAME --account-key $ACCOU
 echo "Dateien erfolgreich hochgeladen."
 ```
 
-## Probleme
+## Sicherheit
+Damit die Daten Geschützt werden, wird ein SAS-Token erstellt. Ein SAS-Token ermöglichen den sicheren, delegierten Zugriff auf Ressourcen im Azure-Speicherkonto.
 
+## Probleme
 Folgenden Error habe ich erhalten:
 
 ``ERROR: incorrect usage: specify '--auth-mode login' when as-user is enabled``
@@ -121,11 +125,16 @@ Ich habe dann az Storage upload verwendet, weil es mit azcopy nicht geklappt hat
 Folgenden Link habe ich verwendet: https://learn.microsoft.com/en-us/cli/azure/storage/blob?view=azure-cli-latest
 
 ## Endprodukt
-Mit dem CLI Skript wird alles automatisch erstellt und zur veranschauung wird ein Test File bereits hochgeladen. Es kann über den Microsoft Azure Storage Explorer weitere Files hochgeladen werden, welche Automatisch auch in der Azure Cloud dann gespeichert wird.
+Mit dem CLI Skript wird alles automatisch erstellt und zur veranschauung wird ein Test File bereits hochgeladen. Es kann über den Microsoft Azure Storage Explorer weitere Files hochgeladen werden, welche Automatisch auch in der Azure Cloud gespeichert werden.
+
+Ansicht Azure Cloud:
+
+![resourcen](../Pictures/Resourcen.png)
 
 Ansicht vom Microsoft Azure Storage Explorer:
 
-!Bild einfügen!
+![Explorer](../Pictures/testfile.png)
+
 
 ## Fallbacksolution
 Wenn etwas nicht klappen würde, habe ich ein Zusätzliches Skript geschrieben, welches die erstellten recoursen wieder löscht.
@@ -175,6 +184,26 @@ echo "Vorgang abgeschlossen."
 In diesem Kapitel wird das Projekt kontrolliert und alles getestet.
 
 ## Testing
+### Testkonzept
+| Testperson | Datum |
+| ---------- | ----- |
+| Laura Dubach | 01.07.2024 |
+
+| System | Testmittel | Testmethode |
+| -------| ---------- | ----------- |
+| Azure Blob Storage | Skript, Microsoft Azure Storage Explorer, Testfiles | Funktionaler Test |
+
+In diesem Test wird das hochladen von Daten in den Azure Blob Storage getestet. Es wird gezeigt wie die Daten im Microsoft Azure Storage Explorer angezeigt werden und wie diese direkt auch in der Cloud gespeichert sind.
+
+### Testdurchführung
+| Testfall | Erwartetes Ergebnis | Testresultat |
+| ---------| ------------------- | ------------ |
+| Upload Daten | Die Daten werden hochgeladen und sind im Explorer ersichtlich | Alle Daten wurden hochgeladen und es wurden noch weitere über den upload hinzugefügt:![Fileupload](/Semesterarbeit1/Pictures/Fileupload.png) |
+| Upload Daten | Die Daten werden hochgeladen und sind im Azure ersichtlich | Alle Daten wurden hochgeladen und sind direkt in der Cloud ersichtlich: ![Azure](/Semesterarbeit1/Pictures/Azure.png) |
 
 ## Schulung Kunde
 Da die Kunden die Umgebung nicht kennen, würde eine Schulung stattfinden, um den Microsoft Azure Storage Explorer genau zu zeigen und alle Features zu erläutern. Wenn eine Interne IT vorhanden wäre, würde eine weitere Schulung für Sie stattfinden, um die ganze Azure Umgebung vorzustellen und zu zeigen, dass auch Sie allfällige Probleme lösen könnten.
+
+> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%202%20Vorbereitung.md)
+>
+> Next [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%204%20Abschluss.md)

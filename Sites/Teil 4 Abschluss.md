@@ -1,14 +1,8 @@
 # Teil 4 Abschluss
 
-> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%203%20Realisieren.md)
->
-> Back [Start](https://github.com/lauradubach/Semesterarbeit1/blob/main/README.md)
-
 - [Teil 4 Abschluss](#teil-4-abschluss)
 - [Auswerten](#auswerten)
   - [Zertifizierung](#zertifizierung)
-  - [Implementierungsplan](#implementierungsplan)
-  - [Auswertung Tests](#auswertung-tests)
   - [Zusammenfassung](#zusammenfassung)
   - [Reflexion](#reflexion)
     - [Persönlich Reflexion](#persönlich-reflexion)
@@ -41,11 +35,6 @@ Für den Theorie Nachweis dieser Arbeit habe ich das AZ-900 Zertifikat absolvier
 
 https://learn.microsoft.com/api/credentials/share/en-us/DubachLaura-7204/42E56558D902971B?sharingId=EDE9AF3791EEEFD2
 
-## Implementierungsplan
-
-![Implementierungsplan](../Pictures/Implementierungsplan.png)
-
-## Auswertung Tests
 ## Zusammenfassung
 In diesem Projekt habe ich eine Projektmanagement Methode angewendet und umgesetzt. Dies wurde nach der IPERKA Methode durchgeführt. Alles Schritte wurden genau dokumentiert. Die Planung und Entscheidung des Projektes sind mit Grafiken evaluiert worden, sodass alles bestmöglich ersichtlich ist. Die Realisierung wurde dann über ein CLI-Skript ausgeführt. Alle Probleme uns Tests wurden durchgeführt und notiert. Das Projekt wurde mit Notion geführt und so konnte die Struktur und Organisation gut und übersichtlich gehandhabt werden. Alle Quellen wurden aufgeführt und korrekt verlinkt. Die Gespräche wurde notiert und die Gesprächsthemen dokumentiert.
 
@@ -57,7 +46,6 @@ Die Zertifizierung wurde ebenfalls im Projekt erwähnt. Der Lernweg ist beschrie
 Meiner Meinung nach ist das Projekt gut gelaufen. Alle meine Ziele konnte ich erreichen und die Dokumentation ist mir gelungen. Der Aufbau ist für mich klar ersichtlich und strukturiert. Es war spannend neue Tools kennenzulernen, wie Gant und Notion. Zusätzlich konnte ich meine erlernten Skills gut anwenden und mein Skript Wissen weiterentwickeln. Das Zertifikat war eine Herausforderung für mich und ich war sehr nervös vor der Prüfung. Die Vorbereitung hatte ich jedoch gut geplant und sehr viel gelernt habe ich auch.
 
 ### Reflexion der Technischen Umsetzung
-
 #### Analysen und Planung
 
 Ich begann mit einer detaillierten Analyse, um die Bedürfnisse der Kunden zu verstehen. Dort wurde veranschaulicht was für Anforderungen an Datenvolumen, Zugriffszeiten und Sicherheit der Daten steht. Dann wurde noch kurz die Theorie zum Thema Big Data beschrieben. Dies half mir später, die richtige Entscheidung für die Storage-Lösung zu treffen.
@@ -129,7 +117,6 @@ Diese Weiterentwicklungen werden dazu beitragen, die Azure Blob Storage-Lösung 
 In der Zukunft könnte ich noch das AZ-104 machen, um mich weiter auf dem Azure Bereich weiterzubilden.
 
 ## Quellen
-
 Kapitel IPERKA, Site Einleitung
 Bexio. (2020): Mit der IPERKA-Methode bessere Entscheidungen für Ihre KMU treffen. Aufgerufen am: 27.05.2024. Online unter: https://www.bexio.com/de-CH/blog/view/iperka-methode
 
@@ -161,3 +148,7 @@ Kapitel Kostenanalyse, Site Vorbereitung
 ChatGPT. (2024): Mach mir bitte eine Kostenanalyse vom Azure Blob Storage und Google Cloud Storage. Aufgerufen am: 10.06.2024. Online unter: https://chatgpt.com/c/78571786-8d35-4794-b488-51f2e033d5ee
 
 ## Glossar
+
+> Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%203%20Realisieren.md)
+>
+> Back [Start](https://github.com/lauradubach/Semesterarbeit1/blob/main/README.md)

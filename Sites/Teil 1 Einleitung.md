@@ -28,7 +28,6 @@
     - [Besprechungsnotiz](#besprechungsnotiz)
   - [Zwischengespräch 2](#zwischengespräch-2)
     - [Besprechungsnotiz](#besprechungsnotiz-1)
-  - [Zwischengespräch 3](#zwischengespräch-3)
 
 
 # Versionenverzeichniss
@@ -207,14 +206,6 @@ Wie beim ersten Gespräch, habe ich mir im vorhinein meine Fragen im Notion noti
 Nun habe ich mich mit Philipp über Teams getroffen. Wir haben uns mein  Seusag Grafik angeschaut. Er hatte ein paar Ideen, dass man die Grafik besser versteht. Die Titel anzupassen oder die Farben zu verändern, so das man versteht was im Projekt integriert wird und was nicht. Das einte Ziel "Darstellung der Verwaltungswerkzeuge und -prozesse für den laufenden Betrieb" soll ich als Endprodukt darstellen, so wie ich es mir ungefähr schon gedacht hatte. Danach haben wir mein Implementierungsplan angesehen. Dieser fand er gut und deshalb belasse ich Ihn so. Das Abbildungsverzeichnis kann ich weglassen, meinte er, da die Verlinkung zu kompliziert ist und zu lange dauert. Zum schluss haben wir uns noch die Quellen angesehen. Dort soll ich noch bei den angegebenen Seiten den Link gleich einfügen.
 
 Das Gespräch verlief gut und nun kann ich gut weiterarbeiten und die Anpassungen vornehmen.
-
-## Zwischengespräch 3
-
-| Besprechung | Datum | Uhrzeit | Teilnehmer | 
-| ---- | ---- | ---- | ---- |
-| 3 | 1.07.2024 | 18:00 | Philipp Rohr, Laura Dubach |
-
-Besprechungsnotiz
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/README.md)
 >

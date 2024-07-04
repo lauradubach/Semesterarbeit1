@@ -50,7 +50,7 @@
 Mit der erfolgreichen Umsetzung dieses Projekts wird das Unternehmen in der Lage sein, große Datenmengen effizient, sicher und kostengünstig zu speichern und zu verwalten. Dies führt zu einer verbesserten Datenverfügbarkeit, niedrigeren Betriebskosten und einer erhöhten Gesamteffizienz im Datenmanagement.
 
 # Aufgabenstellung
-Das Projekt umfasst eine umfassende Analyse der aktuellen Speicheranforderungen von Unternehmen. Besonderheiten und Herausforderungen von Big Data, wie Volumen, Geschwindigkeit und Vielfalt der Daten, werden ebenfalls beleuchtet. Es erfolgt eine Bewertung von zwei verschiedenen Speichertechnologien im Kontext von Big Data, wobei Vor- und Nachteile detailliert erarbeitet werden. Auf Basis dieser Analyse wird ein Implementierungsplan für die beste Speicherlösung erstellt. Dieser Plan beinhaltet die praktische Implementierung und Verwaltung der Lösung sowie spezifische Verwaltungsherausforderungen und -lösungen. Die ausgewählte Speicherlösung ist Azure Blob Storage, das Flexibilität, Skalierbarkeit und Kosteneffizienz bietet. Ein weiterer Bestandteil des Projekts ist der Lernweg der HF Lernenden, um die Azure Fundamentals Zertifizierung zu erlangen. Dies stellt sicher, dass die Lernende die Azure-Umgebung effektiv nutzen und verwalten kann.
+Das Projekt umfasst eine umfassende Analyse der aktuellen Speicheranforderungen von Unternehmen. Besonderheiten und Herausforderungen von Big Data, wie Volumen, Geschwindigkeit und Vielfalt der Daten, werden ebenfalls beleuchtet. Es erfolgt eine Bewertung von zwei verschiedenen Speichertechnologien im Kontext von Big Data, wobei Vor- und Nachteile detailliert erarbeitet werden. Auf Basis dieser Analyse wird ein Implementierungsplan für die beste Speicherlösung erstellt. Die ausgewählte Speicherlösung ist Azure Blob Storage, das Flexibilität, Skalierbarkeit und Kosteneffizienz bietet. Ein weiterer Bestandteil des Projekts ist der Lernweg der HF Lernenden, um die Azure Fundamentals Zertifizierung zu erlangen. Dies stellt sicher, dass die Lernende die Azure-Umgebung effektiv nutzen und verwalten kann.
 
 ## Ausgangslage
 Viele Unternehmen stehen vor der Herausforderung, große Mengen an Daten effizient und kostengünstig zu speichern und zu verwalten. Die traditionellen Speichermethoden sind oft nicht skalierbar, teuer und schwierig zu sichern und zu verwalten. Unternehmen benötigen eine Lösung, die nicht nur skalierbar und kosteneffizient ist, sondern auch hohe Verfügbarkeit, Sicherheit und einfache Verwaltung bietet. 
@@ -159,7 +159,7 @@ E-Mail: thanam.pangri@tbz.ch
 ```
 
 # Datensicherung
-Damit keine Daten verloren gehen können, werde ich alle Dokumente, auf meinem OneDrive abspeichern. Zusätzlich werde ich die Daten auf einen USB-Stick abspeichern, damit ich im Worstcase Szenario immer noch ein Backup besitze. 
+Damit keine Daten verloren gehen können, werde ich alle Dokumente auf meinem OneDrive abspeichern. Zusätzlich werde ich die Daten auf einen USB-Stick abspeichern, damit ich im Worstcase Szenario immer noch ein Backup besitze. 
 
 # Zeitplan
 
@@ -180,13 +180,13 @@ Damit keine Daten verloren gehen können, werde ich alle Dokumente, auf meinem O
 
 Vor dem Gespräch habe ich mir einige Gedanken gemacht, was für Fragen ich stellen möchte. Diese habe ich mir dann im Notion notiert.
 
-1. Darf ich ChatPT für meine texte verwenden
+1. Darf ich ChatGPT für meine texte verwenden
 2. Kunde erfinden oder allgemein schreiben
 3. Wie soll ich AZ-900 integrieren 
 
-Danach habe ich mich mit Philipp über Teams getroffen. Er meinte ChatGPT soll ich unbedingt verwenden, da es auch Zukunft ist. Wichtig ist einfach, dass ich die Quellen angebe. Zum Thema wie ich den Kunde einbauen soll, meinte er, am besten einen Kunden zu erfinden. So kann ich alles besser beschreiben und es gibt keine Verwirrungen. Zur letzten Frage wie ich die Zertifizierung einfliessen lassen soll, sagte er, ich soll meinen Lernweg aufzeigen und dann einen fliessenden Übergang zu meinem Thema machen, welches in der Lernunterlagen des AZ-900 aufzufinden ist. 
+Danach habe ich mich mit Philipp über Teams getroffen. Er meinte ChatGPT soll ich unbedingt verwenden, da es auch Zukunft ist. Wichtig ist einfach, dass ich die Quellen angebe. Zum Thema wie ich den Kunde einbauen soll, meinte er, am besten einen Kunden zu erfinden. So kann ich alles besser beschreiben und es gibt keine Verwirrungen. Jedoch kann ich es auch allgemein lassen, was ich wahrscheinlich machen werde, da ich mit der Beschreibung schon sehr weit bin. Zur letzten Frage wie ich die Zertifizierung einfliessen lassen soll, sagte er, ich soll meinen Lernweg aufzeigen und dann einen fliessenden Übergang zu meinem Thema machen, welches in der Lernunterlagen des AZ-900 aufzufinden ist. 
 
-Das Gespräch war sehr gut und Philipp konnte all meine Fragen beantworten. So kann ich meine Smesterabreit nun gut weiterführen.
+Das Gespräch war sehr gut und Philipp konnte all meine Fragen beantworten. So kann ich meine Semesterabreit nun gut weiterführen.
 
 ## Zwischengespräch 2
 
@@ -199,13 +199,14 @@ Das Gespräch war sehr gut und Philipp konnte all meine Fragen beantworten. So k
 Wie beim ersten Gespräch, habe ich mir im vorhinein meine Fragen im Notion notiert.
 
 1. Seusag gemeinsam anschauen
-2. Darstellung der Verwaltungswerkzeuge und -prozesse für den laufenden Betrieb -> Was ist damit effektiv gemeint, wie soll ich das dokumentieren?
+2. Darstellung der Verwaltungswerkzeuge und -Prozesse für den laufenden Betrieb -> Was ist damit effektiv gemeint, wie soll ich das dokumentieren?
 3. Implementierungsplan gemeinsam anschauen
 4. Abbildungsverzeichnis wie soll ich dies darstellen?
 
-Nun habe ich mich mit Philipp über Teams getroffen. Wir haben uns mein  Seusag Grafik angeschaut. Er hatte ein paar Ideen, dass man die Grafik besser versteht. Die Titel anzupassen oder die Farben zu verändern, so das man versteht was im Projekt integriert wird und was nicht. Das einte Ziel "Darstellung der Verwaltungswerkzeuge und -prozesse für den laufenden Betrieb" soll ich als Endprodukt darstellen, so wie ich es mir ungefähr schon gedacht hatte. Danach haben wir mein Implementierungsplan angesehen. Dieser fand er gut und deshalb belasse ich Ihn so. Das Abbildungsverzeichnis kann ich weglassen, meinte er, da die Verlinkung zu kompliziert ist und zu lange dauert. Zum schluss haben wir uns noch die Quellen angesehen. Dort soll ich noch bei den angegebenen Seiten den Link gleich einfügen.
+Nun habe ich mich mit Philipp über Teams getroffen. Wir haben uns meine Seusag Grafik angeschaut. Er hatte ein paar Ideen, dass man die Grafik besser versteht. Die Titel anzupassen oder die Farben zu verändern, sodass man versteht was im Projekt integriert wird und was nicht. Das einte Ziel "Darstellung der Verwaltungswerkzeuge und -Prozesse für den laufenden Betrieb" soll ich als Endprodukt darstellen, so wie ich es mir ungefähr schon gedacht hatte. Danach haben wir mein Implementierungsplan angesehen. Dieser fand er gut und deshalb belasse ich Ihn so. Das Abbildungsverzeichnis kann ich weglassen, meinte er, da die Verlinkung zu kompliziert ist und zu lange dauert. Zum Schluss haben wir uns noch die Quellen angesehen. Dort soll ich noch bei den angegebenen Seiten den Link gleich einfügen.
 
-Das Gespräch verlief gut und nun kann ich gut weiterarbeiten und die Anpassungen vornehmen.
+Das Gespräch verlief gut und nun kann ich weiterarbeiten und die Anpassungen vornehmen.
+
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/README.md)
 >

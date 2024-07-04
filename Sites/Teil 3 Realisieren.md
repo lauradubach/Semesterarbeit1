@@ -31,7 +31,7 @@ https://github.com/lauradubach/AZ-900
 Diese habe ich dann durchgelesen und studiert.
 
 ### Übungen machen
-Nun habe ich gestartet mit Braindumps und probeprüfungen. Folgende Sites habe ich verwendet:
+Nun habe ich gestartet mit Braindumps und Probeprüfungen. Folgende Sites habe ich verwendet:
 1. https://www.passnexam.com/microsoft/az-900
 2. https://www.examtopics.com/exams/microsoft/az-900/view/
 3. https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/practice/assessment?assessment-type=practice&assessmentId=23&practice-assessment-type=certification
@@ -42,7 +42,11 @@ Da mir dies nicht ganz gereicht hat, habe ich mir eine Mobileapp heruntergeladen
 
 ## Implementierungsplan
 
+In diesem Plan wird aufgezeigt, wie ich grob vorgegangen bin
+
 ![Implementierungsplan](../Pictures/Implementierungsplan.png)
+
+Zuerst wurde das Azure Konto von der Schule erstellt und eingerichtet. Danach habe ich mit dem Skript gestartet und dies dann ausgeführt, getestet und überarbeitet. Alle Probleme die ich hatte, habe ich dokumentiert und wenn ich nicht weitergekommen bin, habe ich mir bei den Fachexperten Hilfe geholt.
 
 ## CLI
 Um mein Projekt umzusetzten, habe ich ein Bash Skript geschrieben.

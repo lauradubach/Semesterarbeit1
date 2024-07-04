@@ -35,19 +35,19 @@
 In diesem Kapitel werde ich Informationen zu meiner Arbeit beschaffen und diese erläutern.
 
 ## Bedürfnisse der Unternehmen
-Unternehmen haben spezifische Anforderungen an Datenvolumen, Zugriffszeiten und Sicherheit, die je nach Branche, Größe und Geschäftsmodell variieren. Hier ist eine detaillierte Beschreibung dieser Bedürfnisse und wie sie typischerweise erhoben und dargestellt werden:
+Unternehmen haben spezifische Anforderungen an Datenvolumen, Zugriffszeiten und Sicherheit, die je nach Branche, Größe und Geschäftsmodell variieren. Hier ist eine detaillierte Beschreibung dieser Bedürfnisse und wie sie typischerweise erhoben und dargestellt werden.
 
 ### Datenvolumen
    - Geschäftsanforderungen: Unternehmen analysieren ihre operativen Prozesse, Kundendaten und Markttrends, um das benötigte      Datenvolumen zu ermitteln. 
    - Zukünftiges Wachstum: Prognosen und Szenarioanalysen helfen bei der Abschätzung zukünftiger Datenmengen basierend auf Unternehmenswachstum und digitalen Transformationen.
-   - Branchenvergleiche: Benchmarking gegen andere Unternehmen der Branche kann Aufschluss über übliche Datenvolumina geben.
+   - Branchenvergleiche: Benchmarking gegen andere Unternehmen der Branche kann Aufschluss über übliche Datenvolumen geben.
    - Kapazitätsplanung: Erstellung von Berichten, die den aktuellen und prognostizierten Speicherbedarf darstellen, oft visualisiert durch Diagramme und Grafiken.
    - Datenstrategie-Dokumente: Detaillierte Strategien, die die kurz- und langfristigen Speicheranforderungen sowie Skalierungspläne enthalten.
 
 ### Zugriffszeiten
    - Anforderungsanalyse: Durchführung von Anforderungsanalysen bei verschiedenen Abteilungen (z. B. Marketing, Vertrieb, Produktion), um die benötigten Zugriffszeiten zu bestimmen.
    - Performance-Tests: Simulation von Datenzugriffen und Auswertungen der Reaktionszeiten, um die Anforderungen an Echtzeit- oder Batch-Verarbeitung zu verstehen.
-   - Nutzerfeedback: Einholen von Feedback von Endbenutzern und IT-Teams, um Engpässe und Optimierungsbedarfe zu identifizieren.
+   - Nutzerfeedback: Einholen von Feedback von Endbenutzern und IT-Teams, um Engpässe und Optimierungsbedarf zu identifizieren.
    - Service-Level-Agreements (SLAs): Dokumentation von SLAs, die genaue Zugriffszeiten und Performance-Kriterien festlegen.
    - Dashboards: Nutzung von Dashboards zur Echtzeit-Überwachung der Systemperformance und Zugriffszeiten, um Transparenz und schnelle Reaktionsmöglichkeiten zu gewährleisten.
 
@@ -60,6 +60,7 @@ Unternehmen haben spezifische Anforderungen an Datenvolumen, Zugriffszeiten und 
 
 ### Zusammenfassung
 Unternehmen müssen ihre spezifischen Bedürfnisse hinsichtlich Datenvolumen, Zugriffszeiten und Sicherheit klar verstehen und darstellen, um ihre IT-Infrastruktur effizient zu planen und zu verwalten. Diese Bedürfnisse werden durch detaillierte Analysen, Simulationen und Nutzerfeedback erhoben und durch strukturierte Dokumentationen, Dashboards und Berichte visualisiert und kommuniziert. Durch die sorgfältige Erhebung und Darstellung dieser Anforderungen können Unternehmen sicherstellen, dass ihre Datenstrategien effektiv, skalierbar und sicher sind.
+
 > (Chat GPT) [Quelle](https://chatgpt.com/share/ab401ba2-2bc1-490b-97b7-0efba4cb4ced)
 
 ## Beschreibung Big Data
@@ -79,6 +80,7 @@ Big Data ist ein Begriff, der die große Menge, Geschwindigkeit und Vielfalt an 
 
 ### Fazit
 Big Data bietet enorme Möglichkeiten, bringt aber auch erhebliche Herausforderungen mit sich. Unternehmen und Organisationen müssen in geeignete Technologien, Prozesse und Fachkräfte investieren, um das Potenzial von Big Data voll auszuschöpfen und gleichzeitig die damit verbundenen Herausforderungen zu bewältigen.
+
 > (Chat GPT) [Quelle](https://chatgpt.com/share/ab401ba2-2bc1-490b-97b7-0efba4cb4ced)
 
 ## Vorbereitung Zertifizierung
@@ -86,7 +88,7 @@ Um mich gut auf die Zertifizierung vorzubereiten, werde ich als erstes einen Ler
 
 Folgende Punkte werde ich verfolgen:
   1. Alle Module im Microsoft Learn abschliessen
-  2. Jedes Modul Zusammenfassen und in einem Repo dokumentieren
+  2. Jedes Modul Zusammenfassen und in einem Repository dokumentieren
   3. Die Probeprüfung im Microsoft Learn absolvieren und üben
   4. Wenn nötig Braindups kaufen und mit diesen weiterlernen
   5. Bei Dozenten um ratschläge un Tipps fragen
@@ -98,7 +100,7 @@ In diesem Kapitel werde ich die Planung des Projektes schildern.
 
 ![IST-Zustand](../Pictures/IST-Zustand.png)
 
-- Datenablage: Daten werden lokal auf physischen Servern oder auf einfachen Netzwerkspeichern (NAS) abgelegt.
+- Datenablage: Daten werden lokal auf physischen Servern oder auf einfachen Netzwerkspeichern abgelegt.
 - Datensicherheit: Mögliche Sicherheitsrisiken durch fehlende Verschlüsselung und Redundanz.
 - Datenzugriff: Begrenzter Zugriff auf Daten, eventuell nur innerhalb des Firmennetzwerks.
 - Wartung und Skalierbarkeit: Hoher Wartungsaufwand und eingeschränkte Skalierbarkeit durch physische Hardware.
@@ -114,7 +116,7 @@ In diesem Kapitel werde ich die Planung des Projektes schildern.
 - Kostenkontrolle: Bessere Kostentransparenz und -kontrolle durch nutzungsabhängige Abrechnung.
 
 # Entscheiden
-In diesem Kapitel werden die Entscheidungen des Projektes gezeigt und wie Sie zustande gekommen sind.
+In diesem Kapitel werden die Entscheidungen des Projektes aufgezeigt.
 
 ## Produkt Vergleich
 ### Google Cloud Storage
@@ -128,6 +130,7 @@ Google Cloud Storage (GCS) ist ein skalierbarer, hochverfügbarer Objektspeicher
 Der Dienst ist hoch skalierbar und gewährleistet eine Verfügbarkeit von 99,95% und eine Datenlanglebigkeit von 99,999999999% (11 Neunen). Sicherheit wird durch standardmäßige Verschlüsselung der Daten im Ruhezustand und während der Übertragung sowie durch fein abgestimmte Zugangskontrollen über Identity and Access Management (IAM) gewährleistet. GCS unterstützt auch Lebenszyklusrichtlinien, die das automatische Verschieben oder Löschen von Objekten ermöglichen. Google Cloud Storage lässt sich nahtlos in andere Google Cloud-Dienste und Drittanbieteranwendungen integrieren und eignet sich für verschiedene Anwendungsfälle wie Datensicherung und -wiederherstellung, Content Delivery, Big Data und Analyse sowie Archivierung. Die Preisgestaltung basiert auf Speicherklasse, Datenmenge, Datenzugriff, Operationen und Netzwerknutzung, wodurch eine flexible Kostenstruktur geboten wird.
 
 Insgesamt bietet GCS eine leistungsfähige, flexible und sichere Lösung für Unternehmen, die große Datenmengen verwalten müssen.
+
 > (Chat GPT) [Quelle](https://chatgpt.com/share/b9298106-d1f5-40d3-addb-54bffea62c57)
 
 
@@ -142,6 +145,7 @@ Azure Blob Storage ist ein skalierbarer und hochverfügbarer Objektspeicherdiens
 Der Dienst ist hoch skalierbar und gewährleistet eine hohe Verfügbarkeit sowie eine Datenlanglebigkeit von 99,99999999999999% (16 Neunen). Sicherheit wird durch standardmäßige Verschlüsselung der Daten im Ruhezustand und während der Übertragung sowie durch fein abgestimmte Zugangskontrollen über Role-Based Access Control (RBAC) und Azure Active Directory (AAD) gewährleistet. Azure Blob Storage unterstützt auch Lebenszyklusrichtlinien, die das automatische Verschieben oder Löschen von Blobs basierend auf benutzerdefinierten Regeln ermöglichen. Azure Blob Storage lässt sich nahtlos in andere Azure-Dienste und Drittanbieteranwendungen integrieren und eignet sich für verschiedene Anwendungsfälle wie Datensicherung und -wiederherstellung, Content Delivery, Big Data und Analyse sowie Archivierung. Die Preisgestaltung basiert auf Zugriffsebene, Datenmenge, Datenzugriff, Operationen und Netzwerknutzung, wodurch eine flexible Kostenstruktur geboten wird.
 
 Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere Lösung für Unternehmen, die große Datenmengen verwalten müssen.
+
 > (Chat GPT) [Quelle](https://chatgpt.com/share/b9298106-d1f5-40d3-addb-54bffea62c57)
 
 ### Vor -und Nachteile
@@ -165,11 +169,13 @@ Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere 
 
 ## Kostenanalyse
 ### Google Cloud Storage
+
 ![GoogleCloudStorage](../Pictures/GoogleCloudStorage.png)
 
 > (Google One) [Quelle](https://one.google.com/about/plans?hl=de&g1_landing_page=0)
 
 ### Azure Blob Storage
+
 ![AzureBlobStorage](../Pictures/AzureBlobStorage.png)
 
 > (Microsoft) [Quelle](https://azure.microsoft.com/de-de/pricing/details/storage/blobs/#pricing)
@@ -237,6 +243,7 @@ Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere 
 |-----------------------------|-----------------|
 | **Google Cloud Storage**    | 7.7             |
 | **Azure Blob Storage**      | 9.0             |
+
 > (Chat GPT) [Quelle](https://chatgpt.com/share/f637a063-7f8f-4ff2-b3e5-e574230ce749)
 
 

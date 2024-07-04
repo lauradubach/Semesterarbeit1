@@ -23,7 +23,6 @@
       - [Kosteneffizienz durch intelligente Speicherlösungen](#kosteneffizienz-durch-intelligente-speicherlösungen)
       - [Zertifizierung](#zertifizierung-1)
   - [Quellen](#quellen)
-  - [Glossar](#glossar)
 
 # Auswerten
 In diesem Kapitel wird das Projekt ausgewertet. Es wird erläutert wie das Projekt war und wie es nächstes mal auch besser gemacht werden könnte.
@@ -147,7 +146,6 @@ ChatGPT. (2024): Mach mir bitte eine Kostenanalyse vom Azure Blob Storage und Go
 Kapitel Entscheidungsmatrix, Site Vorbereitung
 Chat GPT. (2024): Kannst du mir eine Entscheidungsmatrix erstellen zu google cloud storage und azure blob storage. Azure blob storage soll gewinnen. Aufgerufen am: 05.06.2024. Online unter: https://chatgpt.com/share/f637a063-7f8f-4ff2-b3e5-e574230ce749
 
-## Glossar
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%203%20Realisieren.md)
 >

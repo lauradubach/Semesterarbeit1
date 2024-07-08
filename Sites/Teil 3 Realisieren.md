@@ -104,7 +104,7 @@ Folgenden Error habe ich erhalten:
 
 ``ERROR: incorrect usage: specify '--auth-mode login' when as-user is enabled``
 
-Er hatte ein Problem mit dem Key erstellen, den Code musste ich dann anpassen:
+Er hatte ein Problem mit dem Key erstellen, den Code musste ich anschliessend anpassen:
 
 ```bash
 #Account key erstellen
@@ -129,7 +129,7 @@ Ich habe dann az Storage upload verwendet, weil es mit azcopy nicht geklappt hat
 Folgenden Link habe ich verwendet: https://learn.microsoft.com/en-us/cli/azure/storage/blob?view=azure-cli-latest
 
 ## Endprodukt
-Mit dem CLI Skript wird alles automatisch erstellt und zur veranschauung wird ein Test File bereits hochgeladen. Es kann über den Microsoft Azure Storage Explorer weitere Files hochgeladen werden, welche Automatisch auch in der Azure Cloud gespeichert werden.
+Mit dem CLI Skript wird alles automatisch erstellt und zur veranschauung wird ein Test File bereits hochgeladen. Es können über den Microsoft Azure Storage Explorer weitere Files hochgeladen werden, welche Automatisch auch in der Azure Cloud gespeichert werden.
 
 Ansicht Azure Cloud:
 
@@ -185,7 +185,7 @@ echo "Vorgang abgeschlossen."
 ```
 
 # Kontrollieren
-In diesem Kapitel wird das Projekt kontrolliert und alles getestet.
+In diesem Kapitel wird das Projekt kontrolliert und getestet.
 
 ## Testing
 ### Testkonzept
@@ -197,7 +197,7 @@ In diesem Kapitel wird das Projekt kontrolliert und alles getestet.
 | -------| ---------- | ----------- |
 | Azure Blob Storage | Skript, Microsoft Azure Storage Explorer, Testfiles | Funktionaler Test |
 
-In diesem Test wird das hochladen von Daten in den Azure Blob Storage getestet. Es wird gezeigt wie die Daten im Microsoft Azure Storage Explorer angezeigt werden und wie diese direkt auch in der Cloud gespeichert sind.
+In diesem Test wird das hochladen von Daten in den Azure Blob Storage getestet. Es wird gezeigt, wie die Daten im Microsoft Azure Storage Explorer angezeigt werden und wie diese direkt auch in der Cloud gespeichert sind.
 
 ### Testdurchführung
 | Testfall | Erwartetes Ergebnis | Testresultat |
@@ -206,7 +206,7 @@ In diesem Test wird das hochladen von Daten in den Azure Blob Storage getestet. 
 | Upload Daten | Die Daten werden hochgeladen und sind im Azure ersichtlich | Alle Daten wurden hochgeladen und sind direkt in der Cloud ersichtlich: ![Azure](/Semesterarbeit1/Pictures/Azure.png) |
 
 ## Schulung Kunde
-Da die Kunden die Umgebung nicht kennen, würde eine Schulung stattfinden, um den Microsoft Azure Storage Explorer genau zu zeigen und alle Features zu erläutern. Wenn eine Interne IT vorhanden wäre, würde eine weitere Schulung für Sie stattfinden, um die ganze Azure Umgebung vorzustellen und zu zeigen, dass auch Sie allfällige Probleme lösen könnten.
+Da die Kunden die Umgebung nicht kennen, würde eine Schulung stattfinden, um den Microsoft Azure Storage Explorer aufzuzeigen und alle Features zu erläutern. Wenn eine Interne IT vorhanden wäre, würde eine weitere Schulung stattfinden, um die ganze Azure Umgebung vorzustellen und zu zeigen, dass auch Sie allfällige Probleme lösen könnten.
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/Sites/Teil%202%20Vorbereitung.md)
 >

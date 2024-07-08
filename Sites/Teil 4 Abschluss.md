@@ -28,26 +28,26 @@
 In diesem Kapitel wird das Projekt ausgewertet. Es wird erläutert wie das Projekt war und wie es nächstes mal auch besser gemacht werden könnte.
 
 ## Zertifizierung
-Für den Theorie Nachweis dieser Arbeit habe ich das AZ-900 Zertifikat absolviert und bestanden:
+Für den Theorie Nachweis, dieser Arbeit habe ich das AZ-900 Zertifikat absolviert und bestanden:
 
 ![AZ-900](../Pictures/AZ-900.png)
 
 https://learn.microsoft.com/api/credentials/share/en-us/DubachLaura-7204/42E56558D902971B?sharingId=EDE9AF3791EEEFD2
 
 ## Zusammenfassung
-In diesem Projekt habe ich eine Projektmanagement Methode angewendet und umgesetzt. Dies wurde nach der IPERKA Methode durchgeführt. Alle Schritte wurden genau dokumentiert. Die Planung und Entscheidung des Projektes sind mit Grafiken evaluiert worden, sodass alles bestmöglich ersichtlich ist. Die Realisierung wurde dann über ein CLI-Skript ausgeführt. Alle Probleme uns Tests wurden durchgeführt und notiert. Das Projekt wurde mit Notion geführt und so konnte die Struktur und Organisation gut und übersichtlich gehandhabt werden. Alle Quellen wurden aufgeführt und korrekt verlinkt. Die Gespräche wurde notiert und die Gesprächsthemen dokumentiert.
+In diesem Projekt habe ich eine Projektmanagement Methode angewendet und umgesetzt. Dies wurde nach der IPERKA Methode durchgeführt. Alle Schritte wurden genau dokumentiert. Die Planung und Entscheidung des Projektes sind mit Grafiken evaluiert worden, sodass alles bestmöglich ersichtlich ist. Die Realisierung wurde dann über ein CLI-Skript ausgeführt. Alle Probleme und Tests wurden durchgeführt und notiert. Das Projekt wurde mit Notion geführt und so konnte die Struktur und Organisation gut und übersichtlich gehandhabt werden. Alle Quellen wurden aufgeführt und korrekt verlinkt. Die Gespräche wurde notiert und die Gesprächsthemen dokumentiert.
 
 Die Zertifizierung wurde ebenfalls im Projekt erwähnt. Der Lernweg ist beschrieben und das erhaltene Zertifikat aufgeführt.
 
 ## Reflexion
 ### Persönlich Reflexion
 
-Meiner Meinung nach ist das Projekt gut gelaufen. Alle meine Ziele konnte ich erreichen und die Dokumentation ist mir gelungen. Der Aufbau ist für mich klar ersichtlich und strukturiert. Es war spannend neue Tools kennenzulernen, wie Gant und Notion. Zusätzlich konnte ich meine erlernten Skills gut anwenden und mein Skript Wissen weiterentwickeln. Das Zertifikat war eine Herausforderung für mich und ich war sehr nervös vor der Prüfung. Die Vorbereitung hatte ich jedoch gut geplant und sehr viel gelernt. Die Zeitplanung könnte ich noch etwas genauer Planen, da mir manchmal noch etwas aufgefallen ist, was ich noch zusätzlich dokumentieren sollte. Ich habe genug Zeit für Überraschungen eingeplant, jedoch verursacht es trotzdem einen gewissen Stress.
+Meiner Meinung nach ist das Projekt gut gelaufen. Alle meine Ziele konnte ich erreichen und die Dokumentation ist mir gelungen. Der Aufbau ist für mich klar ersichtlich und strukturiert. Es war spannend, neue Tools kennenzulernen wie Gant und Notion. Zusätzlich konnte ich meine erlernten Skills gut anwenden und mein Skript-Wissen weiterentwickeln. Das Zertifikat war eine Herausforderung für mich und ich war sehr nervös vor der Prüfung. Die Vorbereitung hatte ich jedoch gut geplant und sehr viel gelernt. Die Zeitplanung könnte ich noch etwas genauer Planen, da mir manchmal noch etwas aufgefallen ist, was ich noch zusätzlich dokumentieren sollte. Ich habe genug Zeit für Überraschungen eingeplant, jedoch verursacht es trotzdem einen gewissen Stress.
 
 ### Reflexion der Technischen Umsetzung
 #### Analysen und Planung
 
-Ich begann mit einer detaillierten Analyse, um die Bedürfnisse der Kunden zu verstehen. Dort wurde veranschaulicht was für Anforderungen an Datenvolumen, Zugriffszeiten und Sicherheit der Daten steht. Dann wurde noch kurz die Theorie zum Thema Big Data beschrieben. Dies half mir später, die richtige Entscheidung für die Storage-Lösung zu treffen.
+Ich begann mit einer detaillierten Analyse, um die Bedürfnisse der Kunden zu verstehen. Dort wurde veranschaulicht, was für Anforderungen an Datenvolumen, Zugriffszeiten und Sicherheit der Daten steht. Dann wurde noch kurz die Theorie zum Thema Big Data beschrieben. Dies half mir später, die richtige Entscheidung für die Storage-Lösung zu treffen.
 
 Die Planungsphase war wichtig, da sie die Grundlage für eine erfolgreiche Implementierung legte. Es wurde ein Zeitplan entworfen und ein Lernplan. Zusätzlich wurde das Tool Notion verwendet, um eine genaue Struktur zu schaffen.
 
@@ -59,7 +59,7 @@ Nun stand fest, dass man den Azure Blob Storage evaluieren wird.
 
 #### Umsetzung des Projektes
 
-Als nächster Schritt wurde ein CLI-Skript geschrieben. In diesem werden alle Ressourcen direkt installiert, sodass man von Hand nichts mehr selbst machen musste. Da ich keine erfahrene skripterin bin, war dies eine Herausforderung. Mit Hilfe vom Internet und beim Troubleshooting von meinen Dozenten, hat dies aber super funktioniert. Die Probleme konnten schnell überwunden werden und das Skript funktionierte.
+Als nächster Schritt wurde ein CLI-Skript geschrieben. In diesem werden alle Ressourcen direkt installiert, sodass man von Hand nichts mehr selbst machen musste. Da ich keine erfahrene skripterin bin, war dies eine Herausforderung. Mit Hilfe des Internet und Troubleshooting meines Dozenten, hat dies aber super funktioniert. Die Probleme konnten schnell überwunden werden und das Skript funktionierte.
 
 Damit ich nicht jedes Mal von Hand die Ressourcen löschen musste, habe ich ein kurzes Löschungs-skript geschrieben, welches dies für mich übernommen hatte. Die Nutzung von Azure-Tools wie dem Azure Storage Explorer und der Azure CLI vereinfachte diese Prozesse erheblich.
 
@@ -69,7 +69,7 @@ Mit az Storage Upload konnte ich alle Daten direkt hochladen. Dies habe ich im S
 
 #### Optimierung
 
-Nach der Implementierung führte ich Tests durch, um potenzielle Probleme frühzeitig zu erkennen. Die Tests sind gut verlaufen und wurden dokumentiert
+Nach der Implementierung führte ich Tests durch, um potenzielle Probleme frühzeitig zu erkennen. Die Tests sind gut verlaufen und wurden dokumentiert.
 
 ### Fazit
 #### Kosteneffizienz
@@ -102,7 +102,7 @@ Kontinuierliche Überprüfung und Verbesserung der Sicherheitsmaßnahmen, einsch
 
 #### Kosteneffizienz durch intelligente Speicherlösungen
 
-Durch die Nutzung von Azure's intelligenten Speicherlösungen wie Cool Storage und Archive Storage könnte man die Speicherkosten weiter senken, indem man Daten basierend auf ihrer Nutzungshäufigkeit klassifizieren und speichert.
+Durch die Nutzung von Azure's intelligenten Speicherlösungen wie Cool Storage und Archive Storage könnte man die Speicherkosten weiter senken, indem man Daten basierend auf ihrer Nutzungshäufigkeit klassifiziert und speichert.
 
 Diese Weiterentwicklungen werden dazu beitragen, die Azure Blob Storage-Lösung zukunftssicher zu machen und sicherzustellen, dass sie den wachsenden Anforderungen der Unternehmen gerecht werden.
 

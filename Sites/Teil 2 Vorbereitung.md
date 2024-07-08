@@ -42,20 +42,20 @@ Unternehmen haben spezifische Anforderungen an Datenvolumen, Zugriffszeiten und 
    - Zukünftiges Wachstum: Prognosen und Szenarioanalysen helfen bei der Abschätzung zukünftiger Datenmengen basierend auf Unternehmenswachstum und digitalen Transformationen.
    - Branchenvergleiche: Benchmarking gegen andere Unternehmen der Branche kann Aufschluss über übliche Datenvolumen geben.
    - Kapazitätsplanung: Erstellung von Berichten, die den aktuellen und prognostizierten Speicherbedarf darstellen, oft visualisiert durch Diagramme und Grafiken.
-   - Datenstrategie-Dokumente: Detaillierte Strategien, die die kurz- und langfristigen Speicheranforderungen sowie Skalierungspläne enthalten.
+   - Datenstrategie-Dokumente: Detaillierte Strategien, welche die kurz- und langfristigen Speicheranforderungen sowie Skalierungspläne enthalten.
 
 ### Zugriffszeiten
    - Anforderungsanalyse: Durchführung von Anforderungsanalysen bei verschiedenen Abteilungen (z. B. Marketing, Vertrieb, Produktion), um die benötigten Zugriffszeiten zu bestimmen.
    - Performance-Tests: Simulation von Datenzugriffen und Auswertungen der Reaktionszeiten, um die Anforderungen an Echtzeit- oder Batch-Verarbeitung zu verstehen.
    - Nutzerfeedback: Einholen von Feedback von Endbenutzern und IT-Teams, um Engpässe und Optimierungsbedarf zu identifizieren.
    - Service-Level-Agreements (SLAs): Dokumentation von SLAs, die genaue Zugriffszeiten und Performance-Kriterien festlegen.
-   - Dashboards: Nutzung von Dashboards zur Echtzeit-Überwachung der Systemperformance und Zugriffszeiten, um Transparenz und schnelle Reaktionsmöglichkeiten zu gewährleisten.
+   - Dashboards: Nutzung von Dashboards zur Echtzeit-Überwachung der Systemperformance und Zugriffszeiten um Transparenz und schnelle Reaktionsmöglichkeiten zu gewährleisten.
 
 ### Sicherheit
-   - Risikobewertung: Durchführung von Risikoanalysen, um potenzielle Sicherheitsbedrohungen und Schwachstellen zu identifizieren.
+   - Risikobewertung: Durchführung von Risikoanalysen um potenzielle Sicherheitsbedrohungen und Schwachstellen zu identifizieren.
    - Regulatorische Anforderungen: Berücksichtigung von branchenspezifischen Vorschriften und gesetzlichen Anforderungen (z. B. GDPR, HIPAA).
    - Sicherheitsaudits: Regelmäßige Sicherheitsaudits und Penetrationstests zur Überprüfung der aktuellen Sicherheitsmaßnahmen und Identifikation von Verbesserungsmöglichkeiten.
-   - Sicherheitsrichtlinien: Erstellung und Aktualisierung umfassender Sicherheitsrichtlinien, die alle Aspekte des Datenmanagements abdecken.
+   - Sicherheitsrichtlinien: Erstellung und Aktualisierung umfassender Sicherheitsrichtlinien, welche alle Aspekte des Datenmanagements abdecken.
    - Berichte und Dashboards: Regelmäßige Berichterstattung über Sicherheitsvorfälle und -maßnahmen, oft unterstützt durch Dashboards, die Echtzeit-Überwachung ermöglichen.
 
 ### Zusammenfassung
@@ -64,7 +64,7 @@ Unternehmen müssen ihre spezifischen Bedürfnisse hinsichtlich Datenvolumen, Zu
 > (Chat GPT) [Quelle](https://chatgpt.com/share/ab401ba2-2bc1-490b-97b7-0efba4cb4ced)
 
 ## Beschreibung Big Data
-Big Data ist ein Begriff, der die große Menge, Geschwindigkeit und Vielfalt an Daten beschreibt, die Unternehmen und Organisationen heutzutage verarbeiten und analysieren müssen. Die Besonderheiten und Herausforderungen von Big Data lassen sich in vier Hauptdimensionen zusammenfassen: Volumen, Geschwindigkeit, Vielfalt und Auswertung.
+Big Data ist ein Begriff, der die große Menge, Geschwindigkeit und Vielfalt an Daten beschreibt, welche die Unternehmen und Organisationen heutzutage verarbeiten und analysieren müssen. Die Besonderheiten und Herausforderungen von Big Data lassen sich in vier Hauptdimensionen zusammenfassen: Volumen, Geschwindigkeit, Vielfalt und Auswertung.
 
 | **Aspekt** | **Besonderheiten** | **Herausforderungen** |
 |----------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Big Data ist ein Begriff, der die große Menge, Geschwindigkeit und Vielfalt an 
 | | - Beispiele: Finanztransaktionen, Online-Werbung, Überwachungsdaten | - Latenzzeit: Minimierung der Latenzzeit ist entscheidend für rechtzeitige Entscheidungsfindung |
 | **Vielfalt** | - Verschiedene Datenformen: strukturierte, unstrukturierte und semi-strukturierte Daten | - Integration: Komplexität der Integration unterschiedlicher Datenquellen und -formate |
 | | - Quellen: Soziale Medien, Mobilgeräte, Sensoren, Unternehmenssysteme | - Analyse: Erfordert fortschrittliche Techniken wie maschinelles Lernen und natürliche Sprachverarbeitung |
-| **Auswertung** | - Analyse und Interpretation von aten zur Gewinnung wertvoller Erkenntnisse | - Datenqualität: Sicherstellung der Genauigkeit und Zuverlässigkeit der Daten |
+| **Auswertung** | - Analyse und Interpretation von Daten zur Gewinnung wertvoller Erkenntnisse | - Datenqualität: Sicherstellung der Genauigkeit und Zuverlässigkeit der Daten |
 | | - Techniken: Data Mining, maschinelles Lernen, statistische Analysen | - Datenschutz: Schutz der Privatsphäre und Einhaltung von Datenschutzgesetzen |
 | |                                                         | - Fachwissen: Bedarf an spezialisierten Fachkräften für Big Data-Technologien und -Methoden | 
 
@@ -91,7 +91,7 @@ Folgende Punkte werde ich verfolgen:
   2. Jedes Modul Zusammenfassen und in einem Repository dokumentieren
   3. Die Probeprüfung im Microsoft Learn absolvieren und üben
   4. Wenn nötig Braindups kaufen und mit diesen weiterlernen
-  5. Bei Dozenten um ratschläge un Tipps fragen
+  5. Bei Dozenten um Ratschläge un Tipps fragen
 
 # Planen
 In diesem Kapitel werde ich die Planung des Projektes schildern.
@@ -110,8 +110,8 @@ In diesem Kapitel werde ich die Planung des Projektes schildern.
 ![SOLL-Zustand](../Pictures/SOLL-Zustand.png)
 
 - Datenablage: Daten sind jetzt in einem skalierbaren und redundanten Blob Storage in der Cloud abgelegt.
-- Datensicherheit: Verbesserte Sicherheitsmaßnahmen durch Verschlüsselung und Zugriffskontrollen.
-- Datenzugriff: Flexibler und sicherer Zugriff auf Daten von überall aus, auch für mobile Nutzer.
+- Datensicherheit: Verbesserte Sicherheitsmassnahmen durch Verschlüsselung und Zugriffskontrollen.
+- Datenzugriff: Flexibler und sicherer Zugriff auf Daten von überall, auch für mobile Nutzer.
 - Wartung und Skalierbarkeit: Geringerer Wartungsaufwand und hohe Skalierbarkeit durch Nutzung der Cloud-Infrastruktur.
 - Kostenkontrolle: Bessere Kostentransparenz und -kontrolle durch nutzungsabhängige Abrechnung.
 
@@ -121,13 +121,13 @@ In diesem Kapitel werden die Entscheidungen des Projektes aufgezeigt.
 ## Produkt Vergleich
 ### Google Cloud Storage
 
-Google Cloud Storage (GCS) ist ein skalierbarer, hochverfügbarer Objektspeicherdienst von Google Cloud, der eine flexible und zuverlässige Speicherung von Daten jeder Größe ermöglicht. Daten werden in Form von Objekten innerhalb von Buckets gespeichert, die jeweils einen weltweit eindeutigen Namen haben. GCS bietet verschiedene Speicherklassen, die auf unterschiedliche Zugriffs- und Kostenanforderungen zugeschnitten sind:
+Google Cloud Storage (GCS) ist ein skalierbarer, hochverfügbarer Objektspeicherdienst von Google Cloud, der eine flexible und zuverlässige Speicherung von Daten jeder Größe ermöglicht. Daten werden in Form von Objekten innerhalb von Buckets gespeichert, die jeweils einen weltweit eindeutigen Namen haben. GCS bietet verschiedene Speicherklassen die auf unterschiedliche Zugriffs- und Kostenanforderungen zugeschnitten sind:
 - Standard Storage für häufigen Zugriff
 - Nearline Storage für monatlichen Zugriff
 - Coldline Storage für jährlichen Zugriff
 - Archive Storage für seltenen oder nie benötigten Zugriff.
 
-Der Dienst ist hoch skalierbar und gewährleistet eine Verfügbarkeit von 99,95% und eine Datenlanglebigkeit von 99,999999999% (11 Neunen). Sicherheit wird durch standardmäßige Verschlüsselung der Daten im Ruhezustand und während der Übertragung sowie durch fein abgestimmte Zugangskontrollen über Identity and Access Management (IAM) gewährleistet. GCS unterstützt auch Lebenszyklusrichtlinien, die das automatische Verschieben oder Löschen von Objekten ermöglichen. Google Cloud Storage lässt sich nahtlos in andere Google Cloud-Dienste und Drittanbieteranwendungen integrieren und eignet sich für verschiedene Anwendungsfälle wie Datensicherung und -wiederherstellung, Content Delivery, Big Data und Analyse sowie Archivierung. Die Preisgestaltung basiert auf Speicherklasse, Datenmenge, Datenzugriff, Operationen und Netzwerknutzung, wodurch eine flexible Kostenstruktur geboten wird.
+Der Dienst ist hoch skalierbar und gewährleistet eine Verfügbarkeit von 99,95% und eine Datenlanglebigkeit von 99,999999999% (11 Neunen). Sicherheit wird durch standardmäßige Verschlüsselung der Daten im Ruhezustand und während der Übertragung sowie durch fein abgestimmte Zugangskontrollen über Identity und Access Management (IAM) gewährleistet. GCS unterstützt auch Lebenszyklusrichtlinien, die das automatische Verschieben oder Löschen von Objekten ermöglichen. Google Cloud Storage lässt sich nahtlos in andere Google Cloud-Dienste und Drittanbieteranwendungen integrieren und eignet sich für verschiedene Anwendungsfälle wie Datensicherung und -wiederherstellung, Content Delivery, Big Data und Analyse sowie Archivierung. Die Preisgestaltung basiert auf Speicherklasse, Datenmenge, Datenzugriff, Operationen und Netzwerknutzung, wodurch eine flexible Kostenstruktur geboten wird.
 
 Insgesamt bietet GCS eine leistungsfähige, flexible und sichere Lösung für Unternehmen, die große Datenmengen verwalten müssen.
 
@@ -224,7 +224,7 @@ Insgesamt bietet Azure Blob Storage eine leistungsfähige, flexible und sichere 
 
 | Kriterium | Gewichtung | Google Cloud Storage | Azure Blob Storage | Bewertung Google | Bewertung Azure | Ergebnis Google | Ergebnis Azure |
 |-----------------------------|------------|-----------------------|--------------------|-------------------|-----------------|-----------------|----------------|
-| **Kosten** | 20% | Flexible Preismodelle, jedoch etwas teurer bei hoher Nutzung | Wettbewerbsfähige Preise, besonders günstig bei langfristiger Nutzung | 7 | 9 | 1.4 | 1.8 |
+| **Kosten** | 20% | Flexible Preismodelle, jedoch etwas teurer bei hoher Nutzung | Wettbewerbsfähige, Preise besonders günstig bei langfristiger Nutzung | 7 | 9 | 1.4 | 1.8 |
 | **Leistung** | 15% | Hohe Leistung, schnelle Latenzzeiten | Sehr hohe Leistung, optimiert für verschiedene Nutzungsszenarien | 8 | 9 | 1.2 | 1.35 |
 | **Sicherheit** | 20% | Sehr gute Sicherheitsfunktionen | Hervorragende Sicherheitsfunktionen | 8 | 9 | 1.6 | 1.8 |
 | **Verfügbarkeit und Zuverlässigkeit** | 15% | Hohe Verfügbarkeit, SLA von 99.95% | Höchste Verfügbarkeit, SLA von 99.99% | 8 | 9 | 1.2 | 1.35 |

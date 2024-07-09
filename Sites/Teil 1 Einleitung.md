@@ -45,6 +45,7 @@
 | 1.8 | 17.06.2024 | Laura Dubach | Implementierungsplan, Umsetzung dokumentiert |
 | 1.9 | 21.06.2024 | Laura Dubach | Gespräch mit Philipp, Besprechungsprotokoll schreiben, Seusag überarbeiten, weiter am Kapitel Umsetzung dokumentieren |
 | 2.0 | 01.07.2024 | Laura Dubach | Testfälle dokumentiert, Thema Sicherheit dokumentiert, Quellen verlinkt |
+| 2.1 | 08.07.2024 | Laura Dubach | Rechtschreibung anschauen, Dokument fertigstellen |
 
 # Teil 1 Einleitung
 Mit der erfolgreichen Umsetzung dieses Projekts wird das Unternehmen in der Lage sein, große Datenmengen effizient, sicher und kostengünstig zu speichern und zu verwalten. Dies führt zu einer verbesserten Datenverfügbarkeit, niedrigeren Betriebskosten und einer erhöhten Gesamteffizienz im Datenmanagement.

@@ -202,7 +202,7 @@ In diesem Test wird das hochladen von Daten in den Azure Blob Storage getestet. 
 ### Testdurchführung
 | Testfall | Erwartetes Ergebnis | Testresultat |
 | ---------| ------------------- | ------------ |
-| Upload Daten | Die Daten werden hochgeladen und sind im Explorer ersichtlich | Alle Daten wurden hochgeladen und es wurden noch weitere über den upload hinzugefügt:![Fileupload](/Semesterarbeit1/Pictures/Fileupload.png) |
+| Upload Daten | Die Daten werden hochgeladen und sind im Explorer ersichtlich | Alle Daten wurden hochgeladen und es wurden noch weitere über den upload hinzugefügt:![Fileupload](Semesterarbeit1/Pictures/Fileupload.png)|
 | Upload Daten | Die Daten werden hochgeladen und sind im Azure ersichtlich | Alle Daten wurden hochgeladen und sind direkt in der Cloud ersichtlich: ![Azure](/Semesterarbeit1/Pictures/Azure.png) |
 
 ## Schulung Kunde

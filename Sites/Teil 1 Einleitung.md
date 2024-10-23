@@ -30,11 +30,10 @@
 
 | Version | Datum | Autor | Bemerkung | 
 | ------- | ------ | ---- | --------- |
-| 1.0 | 24.05.2024 | Laura Dubach | |
+| 1.0 | .2024 | Laura Dubach | |
 
 
 # Teil 1 Einleitung
-Mit der erfolgreichen Umsetzung dieses Projekts wird das Unternehmen in der Lage sein, große Datenmengen effizient, sicher und kostengünstig zu speichern und zu verwalten. Dies führt zu einer verbesserten Datenverfügbarkeit, niedrigeren Betriebskosten und einer erhöhten Gesamteffizienz im Datenmanagement.
 
 # Aufgabenstellung
 

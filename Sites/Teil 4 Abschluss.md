@@ -10,9 +10,6 @@
       - [Umsetzung des Projektes](#umsetzung-des-projektes)
       - [Optimierung](#optimierung)
     - [Fazit](#fazit)
-      - [Kosteneffizienz](#kosteneffizienz)
-      - [Skalierbarkeit und Flexibilität](#skalierbarkeit-und-flexibilität)
-      - [Sicherheit und Zugänglichkeit](#sicherheit-und-zugänglichkeit)
     - [Lernerfahrungen](#lernerfahrungen)
     - [Mögliche Weiterentwicklung](#mögliche-weiterentwicklung)
   - [Quellen](#quellen)
@@ -21,38 +18,20 @@
 In diesem Kapitel wird das Projekt ausgewertet. Es wird erläutert wie das Projekt war und wie es nächstes mal auch besser gemacht werden könnte.
 
 
-
 ## Reflexion
 ### Persönlich Reflexion
 
-
 ### Reflexion der Technischen Umsetzung
 #### Analysen und Planung
-
-
 #### Entscheidung
-
 #### Umsetzung des Projektes
-
-
 #### Optimierung
 
-
 ### Fazit
-#### Kosteneffizienz
-
-
-#### Skalierbarkeit und Flexibilität
-
-
-#### Sicherheit und Zugänglichkeit
-
 
 ### Lernerfahrungen
 
-
 ### Mögliche Weiterentwicklung
-
 
 ## Quellen
 

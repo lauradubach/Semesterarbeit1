@@ -18,12 +18,13 @@
     - [Dozenten](#dozenten)
 - [Datensicherung](#datensicherung)
 - [Zeitplan](#zeitplan)
-- [Lernplan](#lernplan)
 - [Besprechungsprotokoll](#besprechungsprotokoll)
   - [Zwischengespräch 1](#zwischengespräch-1)
     - [Besprechungsnotiz](#besprechungsnotiz)
   - [Zwischengespräch 2](#zwischengespräch-2)
     - [Besprechungsnotiz](#besprechungsnotiz-1)
+  - [Zwischengespräch 3](#zwischengespräch-3)
+    - [Besprechungsnotiz](#besprechungsnotiz-2)
 
 
 # Versionenverzeichniss
@@ -75,21 +76,24 @@ Funktion: Fachdozent
 Github: phrohr
 E-Mail: philipp.rohr@tbz.ch
 ```
-
+```
+Dörzbach armin
+Funktion: Fachdozent
+Github: armindoerzbachtbz
+E-Mail: armin.doerzbach@tbz.ch
+```
 
 # Datensicherung
 Damit keine Daten verloren gehen können, werde ich alle Dokumente auf meinem OneDrive abspeichern. Zusätzlich werde ich die Daten auf einen USB-Stick abspeichern, damit ich im Worstcase Szenario immer noch ein Backup besitze. 
 
 # Zeitplan
 
-# Lernplan
-
 # Besprechungsprotokoll
 ## Zwischengespräch 1
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |
-| 1 |  |  | Philipp Rohr, Laura Dubach |
+| 1 | 22.11.2024 |  | Philipp Rohr, Laura Dubach |
 
 ### Besprechungsnotiz
 
@@ -98,10 +102,17 @@ Damit keine Daten verloren gehen können, werde ich alle Dokumente auf meinem On
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |
-| 2 |  |  | Philipp Rohr, Laura Dubach |
+| 2 | 13.12.2024 |  | Philipp Rohr, Laura Dubach |
 
 ### Besprechungsnotiz
 
+## Zwischengespräch 3
+
+| Besprechung | Datum | Uhrzeit | Teilnehmer | 
+| ---- | ---- | ---- | ---- |
+| 2 | 10.01.2025 |  | Philipp Rohr, Laura Dubach |
+
+### Besprechungsnotiz
 
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit1/blob/main/README.md)

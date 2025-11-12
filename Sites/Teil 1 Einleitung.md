@@ -134,7 +134,6 @@ Für diese Methode habe ich mich entschieden, da wir diese in meiner Lehre für 
 ```
 Laura Joana Dubach
 Funktion: Projektleiterin
-P: 079 355 78 24
 Github: lauradubach
 E-Mail: laura.dubach@itnetx.ch
 ```
